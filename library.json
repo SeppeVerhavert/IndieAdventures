@@ -2,12 +2,37 @@
 {
     "pages": [
         {
-            "text": "This is the very first of many adventures of the brave Sir Indie. <br><hr>During this adventure, you will be given options on how you want to approach the problems you face. Choose carefully and get the perfect score..",
-            "image": "https://i.imgur.com/DL5nXGY.png"
+            "image": "https://i.imgur.com/DL5nXGY.png",
+            "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you will be given options on how you want to approach the problems you face. Choose carefully and get the perfect score..",
+            "options": [
+                {
+                "0": "",
+                "1": "",
+                "2": ""
+                }
+            ]
         },
         {
-            "text": "This is the very first of many adventures of the brave Sir Indie. <br><hr>During the adventure, you will be given options on how you want to approach the problems you face. Choose carefully and get the perfect score.This is the very first of many adventures of the brave Sir Indie. <br><hr>During the adventure, you will be given options on how you want to approach the problems you face. Choose carefully and get the perfect score.This is the very first of many adventures of the brave Sir Indie. <br><hr>During the adventure, you will be given options on how you want to approach the problems you face. Choose carefully and get the perfect score..",
-            "image": "https://i.imgur.com/DL5nXGY.png"
+            "image": "https://i.imgur.com/qO8vMSn.png",
+            "text": "It all happened overnight. I was sleeping until I heard the shouting from outside. I jumped out of bed and looked out of my window and saw my own village being consumed by dragonfire. The heat struck me in the face and I reeled back as if punched and looked outside with watery eyes.<br><hr>People were screaming, houses on fire and humans and beasts alike running through the streets in pure terror. Amidst all was the giant creature spewing death and destruction with it's fiery breath. Then I noticed it was climbing the castle! My lord and his family were in danger!<br><hr>While I was busy getting dressed I heard the creatures terrifying roar and a low rumbling shook the ground and the house I was in. I looked outside once again, just in time to see the vile creature taking something from the now collapsing tower and taking flight again.<br><hr>Then the ground opened up beneath my feet and I was swallowed by darkness.<br><br>....",
+            "options": [
+                {
+                "0": "Continue",
+                "1": "",
+                "2": ""
+                }
+            ]
+        },
+        {
+            "image": "https://i.imgur.com/DL5nXGY.png",
+            "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you will be given options on how you want to approach the problems you face. Choose carefully and get the perfect score..",
+            "options": [
+                {
+                "0": "",
+                "1": "",
+                "2": ""
+                }
+            ]
         }
     ]
 }

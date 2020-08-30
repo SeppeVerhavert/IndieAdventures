@@ -1,8 +1,11 @@
 //  ------------------  GLOBAL VARIABLES  ------------------  //
 
-var startBtn = document.getElementById('start');
 var img = document.getElementById('img');
-var page = 0;
+var startBtn = document.getElementById('start');
+var choicesContainer = document.getElementById('choices-container');
+var choices = document.getElementsByClassName('choice');
+var page = -1;
+// var page = 0;
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -18,6 +21,16 @@ async function fetchJson() {
 
 fetchJson();
 
+//  ------------------ RENDER  ------------------  //
+
+async function render() {
+    page++;
+    startBtn.classList.add('invisible');
+    choicesContainer.classList.add('invisible');
+    img.src = data.pages[page].image;
+    typeWriter(data.pages[page].text);
+}
+
 //  ------------------ TYPEWRITER  ------------------  //
 
 function typeWriter(sentence) {
@@ -30,23 +43,29 @@ function typeWriter(sentence) {
         document.getElementById('storyText').innerHTML= sentence.substr(0,index);
         if (++index === sentence.length) {
             clearInterval(timer);
-            showBtn();
+            showOptions();
         }
-    }, 25);
+    }, 1);
 }
 
-//  ------------------ RENDER  ------------------  //
+//  ------------------ SHOW OPTIONS AFTER LOADING TEXT  ------------------  //
 
-async function render() {
-    startBtn.classList.add('invisible');
-    img.src = data.pages[page].image;
-    typeWriter(data.pages[page].text);
-    page++;
-}
-
-function showBtn() {
-    if (page === 1){
+function showOptions() {
+    if (page === 0){
         fadein = setTimeout(function() {
         startBtn.classList.remove('invisible')}, 500);
     }
+    setTimeout(function() {checkOptions()}, 500);
+}
+
+//  ------------------ CHECK OPTIONS  ------------------  //
+
+function checkOptions() {
+    for (let i = 0; i<3; i++) {
+        choices[i].innerHTML = "";
+        if (data.pages[page].options[0][i] !== ""){
+            choices[i].innerHTML = "&#9654; " + data.pages[page].options[0][i];
+        }
+    }
+    choicesContainer.classList.remove('invisible');
 }
