@@ -4,7 +4,7 @@ var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
 var choicesContainer = document.getElementById('choices-container');
 var choices = document.getElementsByClassName('choice');
-var page = 1;
+var page = -1;
 
 //  ------------------  JSON FETCH  ------------------  //
 
