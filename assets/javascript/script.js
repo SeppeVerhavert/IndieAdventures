@@ -5,7 +5,6 @@ var startBtn = document.getElementById('start');
 var choicesContainer = document.getElementById('choices-container');
 var choices = document.getElementsByClassName('choice');
 var page = -1;
-// var page = 0;
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -45,7 +44,7 @@ function typeWriter(sentence) {
             clearInterval(timer);
             showOptions();
         }
-    }, 1);
+    }, 20);
 }
 
 //  ------------------ SHOW OPTIONS AFTER LOADING TEXT  ------------------  //
