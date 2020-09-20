@@ -6,20 +6,56 @@
             "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you decide how you want to approach the problems you face. Choose carefully and get the perfect score..",
             "options": [
                 {
-                "0": "",
-                "1": "",
-                "2": ""
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ]
                 }
             ]
         },
         {
             "image": "https://i.imgur.com/qO8vMSn.png",
-            "text": "It all happened overnight. The shouting from outside roused me from my sleep. Jumping out of bed I looked out of the window and saw my own village being consumed by a fiery inferno as if I had woken up in hell. The heat struck me in the face and smoke was already filling my room. With watery eyes I tried to look outside.<br><hr>People were screaming, everything was on fire and humans and beasts alike running through the streets in pure terror. Amidst all was a giant creature spewing death and destruction with it's fiery breath. Then I noticed it was climbing the castle! My lord and his family were in danger!<br><hr>While I was busy getting dressed the creatures let out a terrifying roar and a low rumbling shook the ground and houses. Once again I looked outside, just in time to see the vile monster grabbing something from the now collapsing tower and taking flight again.<br><hr>Then the ground opened up beneath my feet and I was swallowed by darkness.<br><br>....",
+            "text": "It all happened overnight. The shouting from outside roused me from my sleep. Jumping out of bed I looked out of the window and saw my own village being consumed by a fiery inferno as if I had woken up in hell. The heat struck me in the face and smoke was already filling my room. With watery eyes I looked outside.<br><hr>People were screaming, everything was on fire and amidst it all was a giant creature causing death and destruction. Then I noticed it was climbing the castle and I realised that my lord and his family were in danger!<br><hr>While I was busy getting dressed the creature let out a terrifying roar and a rumbling shook the ground and houses. Once again I looked outside, just in time to see the monster grabbing something from the now collapsing tower and taking flight.<br><hr>Then the ground opened up beneath my feet and I was swallowed by darkness.<br><br>....",
             "options": [
                 {
-                "0": "Continue",
-                "1": "",
-                "2": ""
+                    "0": [
+                        {
+                            "text": "Continue...",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -28,9 +64,27 @@
             "text": "later I woke up burried under rubble and ash. With maximum effort I was able to get out from the stones and broken planks that used to be my home. However one wall still stood straight as if in defiance of what had happened to my village.<br><hr>As I stood in front of the wall watching my trusty weapons I decided I would right the wrong that was done to my people. I would only need to decide what weapon I would be using for this quest....",
             "options": [
                 {
-                "0": "Choose the sword, weapon of Champions",
-                "1": "Choose the crossbow, weapon of Hunters",
-                "2": "Choose the staff, weapon of Mages"
+                    "0": [
+                        {
+                            "text": "Choose the sword,<br>weapon of Champions",
+                            "item": "Sword",
+                            "skippages": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "Choose the crossbow,<br>weapon of Hunters",
+                            "item": "Crossbow",
+                            "skippages": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "Choose the staff,<br>weapon of Mages",
+                            "item": "Staff",
+                            "skippages": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -39,9 +93,27 @@
             "text": "to be continued....",
             "options": [
                 {
-                "0": "",
-                "1": "",
-                "2": ""
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skippages": ""
+                        }
+                    ]
                 }
             ]
         }

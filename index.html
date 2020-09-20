@@ -3,7 +3,7 @@
 
 <head>
     <!-- Meta Tags -->
-    <meta http-equiv="Content-Type" content="text/html" ; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Indie Adventures -  Adventure text game of the brave Sir Indie</title>
@@ -20,9 +20,9 @@
             <div class="textfield">
                 <p id="storyText"></p>
                 <div id="choices-container">
-                    <p class="choice" onclick=render()></p>
-                    <p class="choice" onclick=render()></p>
-                    <p class="choice" onclick=render()></p>
+                    <p class="choice" onclick=addToInventory(0);render()></p>
+                    <p class="choice" onclick=addToInventory(1);render()></p>
+                    <p class="choice" onclick=addToInventory(2);render()></p>
                 </div>
             </div>
             <button type="button" id="start" class="btn btn-secondary invisible" onclick=render()>PRESS START</button>

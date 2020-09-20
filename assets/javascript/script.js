@@ -44,7 +44,7 @@ function typeWriter(sentence) {
             clearInterval(timer);
             showOptions();
         }
-    }, 20);
+    }, 0);
 }
 
 //  ------------------ SHOW OPTIONS AFTER LOADING TEXT  ------------------  //
@@ -62,9 +62,19 @@ function showOptions() {
 function checkOptions() {
     for (let i = 0; i<3; i++) {
         choices[i].innerHTML = "";
-        if (data.pages[page].options[0][i] !== ""){
-            choices[i].innerHTML = "&#9654; " + data.pages[page].options[0][i];
+        if (data.pages[page].options[0][i][0].text !== ""){
+            choices[i].innerHTML = "&#9654; " + data.pages[page].options[0][i][0].text;
         }
     }
     choicesContainer.classList.remove('invisible');
+}
+
+//  ------------------ INVENTORY & ADD TO INVENTORY ------------------  //
+
+var inventory = new Array();
+
+function addToInventory(choice) {
+    if (data.pages[page].options[0][choice][0].item !== "") {
+        inventory.push(data.pages[page].options[0][choice][0].item)
+    }
 }
