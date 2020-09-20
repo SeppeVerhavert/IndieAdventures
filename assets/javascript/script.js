@@ -3,9 +3,10 @@
 var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
 var choicesContainer = document.getElementById('choices-container');
+var screenText = document.getElementById('storyText');
 var choices = document.getElementsByClassName('choice');
-var page = 1;
 var inventory = new Array();
+var page = -1;
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -23,7 +24,12 @@ fetchJson();
 
 //  ------------------ RENDER  ------------------  //
 
-async function render() {
+async function render(choice) {
+    screenText.innerText = "";
+    if(choice !== undefined) {
+        addToInventory(choice);
+        skipPage(choice);
+    }
     page++;
     startBtn.classList.add('invisible');
     choicesContainer.classList.add('invisible');
@@ -40,12 +46,12 @@ function typeWriter(sentence) {
         if(char === '<') {
             index= sentence.indexOf('>',index);
         }
-        document.getElementById('storyText').innerHTML= sentence.substr(0,index);
+        screenText.innerHTML= sentence.substr(0,index);
         if (++index === sentence.length) {
             clearInterval(timer);
             showOptions();
         }
-    }, 0);
+    }, 20);
 }
 
 //  ------------------ SHOW OPTIONS AFTER LOADING TEXT  ------------------  //
@@ -81,7 +87,7 @@ function addToInventory(choice) {
 //  ------------------ SKIP PAGES  ------------------  //
 
 function skipPage(choice) {
-    if (data.pages[page].options[0][choice][0].item !== "") {
+    if (data.pages[page].options[0][choice][0].skip !== "") {
         page = page + parseInt(data.pages[page].options[0][choice][0].skip);
     }
 }
