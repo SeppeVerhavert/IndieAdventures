@@ -10,21 +10,21 @@
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ],
                     "1": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ],
                     "2": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ]
                 }
@@ -39,21 +39,21 @@
                         {
                             "text": "Continue...",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ],
                     "1": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ],
                     "2": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ]
                 }
@@ -68,21 +68,21 @@
                         {
                             "text": "Choose the sword,<br>weapon of Champions",
                             "item": "Sword",
-                            "skippages": ""
+                            "skip": "0"
                         }
                     ],
                     "1": [
                         {
                             "text": "Choose the crossbow,<br>weapon of Hunters",
                             "item": "Crossbow",
-                            "skippages": ""
+                            "skip": "1"
                         }
                     ],
                     "2": [
                         {
                             "text": "Choose the staff,<br>weapon of Mages",
                             "item": "Staff",
-                            "skippages": ""
+                            "skip": "2"
                         }
                     ]
                 }
@@ -90,28 +90,86 @@
         },
         {
             "image": "",
-            "text": "to be continued....",
+            "text": "",
             "options": [
                 {
                     "0": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ],
                     "1": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
                         }
                     ],
                     "2": [
                         {
                             "text": "",
                             "item": "",
-                            "skippages": ""
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "",
+            "text": "",
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "",
+            "text": "",
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
                         }
                     ]
                 }

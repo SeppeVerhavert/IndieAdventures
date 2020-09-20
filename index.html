@@ -20,9 +20,9 @@
             <div class="textfield">
                 <p id="storyText"></p>
                 <div id="choices-container">
-                    <p class="choice" onclick=addToInventory(0);render()></p>
-                    <p class="choice" onclick=addToInventory(1);render()></p>
-                    <p class="choice" onclick=addToInventory(2);render()></p>
+                    <p class="choice" onclick=addToInventory(0);skipPage(0);render()></p>
+                    <p class="choice" onclick=addToInventory(1);skipPage(1);render()></p>
+                    <p class="choice" onclick=addToInventory(2);skipPage(2);render()></p>
                 </div>
             </div>
             <button type="button" id="start" class="btn btn-secondary invisible" onclick=render()>PRESS START</button>

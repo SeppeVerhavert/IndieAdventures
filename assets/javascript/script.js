@@ -4,7 +4,8 @@ var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
 var choicesContainer = document.getElementById('choices-container');
 var choices = document.getElementsByClassName('choice');
-var page = -1;
+var page = 1;
+var inventory = new Array();
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -69,12 +70,18 @@ function checkOptions() {
     choicesContainer.classList.remove('invisible');
 }
 
-//  ------------------ INVENTORY & ADD TO INVENTORY ------------------  //
-
-var inventory = new Array();
+//  ------------------ ADD TO INVENTORY ------------------  //
 
 function addToInventory(choice) {
     if (data.pages[page].options[0][choice][0].item !== "") {
         inventory.push(data.pages[page].options[0][choice][0].item)
+    }
+}
+
+//  ------------------ SKIP PAGES  ------------------  //
+
+function skipPage(choice) {
+    if (data.pages[page].options[0][choice][0].item !== "") {
+        page = page + parseInt(data.pages[page].options[0][choice][0].skip);
     }
 }
