@@ -68,21 +68,21 @@
                         {
                             "text": "Choose the sword,<br>weapon of Champions",
                             "item": "Sword",
-                            "skip": "0"
+                            "skip": ""
                         }
                     ],
                     "1": [
                         {
                             "text": "Choose the crossbow,<br>weapon of Hunters",
                             "item": "Crossbow",
-                            "skip": "1"
+                            "skip": ""
                         }
                     ],
                     "2": [
                         {
                             "text": "Choose the staff,<br>weapon of Mages",
                             "item": "Staff",
-                            "skip": "2"
+                            "skip": ""
                         }
                     ]
                 }
@@ -90,26 +90,26 @@
         },
         {
             "image": "",
-            "text": "",
+            "text": "With my trusty weapon of choice I was now ready to embark on my epic quest! Of course I would first need to find the wretched creature.<br><hr>From the surviving villagers I heard that the dragon kidnapped our princess and flew to the mountians east of the village. Thus I would not only be killing a formidable foe, but also got the opportunity to rescue a fair maiden!<br><hr>I also learned that there were 3 possible roads that could lead there.<br><hr>One would travel through the forest, where dangerous creatures are rumored to be stalking through the dense brush.<br><hr>Another road would follow the traders route through the fields, where one would have to be careful for gangs of bandits and thugs lying in ambush.<br><hr>The last option would be to follow the river where spirits of nature are abundand and best approached carefully.<br><br>I must consider carefully the route to travel....",
             "options": [
                 {
                     "0": [
                         {
-                            "text": "",
+                            "text": "Choose the forest, I have no fear of wild beasts!",
                             "item": "",
                             "skip": ""
                         }
                     ],
                     "1": [
                         {
-                            "text": "",
+                            "text": "Choose the traders route, I'm not easily surprised!",
                             "item": "",
                             "skip": ""
                         }
                     ],
                     "2": [
                         {
-                            "text": "",
+                            "text": "Choose the river, I am friend of spirits & nature!",
                             "item": "",
                             "skip": ""
                         }
