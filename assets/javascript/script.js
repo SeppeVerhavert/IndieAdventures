@@ -8,7 +8,7 @@ var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var inventory = new Array();
 var page = -1;
-var textspeed = 20;
+var textspeed = 500;
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -42,18 +42,30 @@ async function render(choice) {
 //  ------------------ TYPEWRITER  ------------------  //
 
 function typeWriter(sentence) {
-    var index = 0,
-        timer = setInterval(function() {
-            var char = sentence.charAt(index);
-            if (char === '<') {
-                index = sentence.indexOf('>', index);
-            }
-            screenText.innerHTML = sentence.substr(0, index);
-            if (++index === sentence.length) {
-                clearInterval(timer);
-                showOptions();
-            }
-        }, textspeed);
+    var index = 0;
+    while (index < sentence.length) {
+        sleep(100);
+        console.log(sentence.substr(0, index));
+        screenText.innerHTML = sentence.substr(0, index);
+        index++;
+    }
+    // var char = sentence.charAt(index);
+    // if (char === '<') {
+    //     index = sentence.indexOf('>', index);
+    // }
+
+    // if (++index === sentence.length) {
+    //     clearInterval(timer);
+    //     showOptions();
+    // }
+}
+
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+        currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
 }
 
 //  ------------------ SHOW OPTIONS AFTER LOADING TEXT  ------------------  //
