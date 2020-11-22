@@ -78,12 +78,12 @@
                 "1": [{
                     "text": "Choose the traders route, I'm not easily surprised!",
                     "item": "",
-                    "skip": ""
+                    "skip": "2"
                 }],
                 "2": [{
                     "text": "Choose the river, I am friend of spirits & nature!",
                     "item": "",
-                    "skip": ""
+                    "skip": "4"
                 }]
             }]
         },
@@ -93,9 +93,9 @@
             "requirement": "Sword",
             "options": [{
                 "0": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
+                    "text": "Continue",
+                    "item": "Shield",
+                    "skip": "5"
                 }],
                 "1": [{
                     "text": "",
@@ -115,9 +115,9 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "4"
                 }],
                 "1": [{
                     "text": "",
@@ -137,9 +137,9 @@
             "requirement": "Crossbow",
             "options": [{
                 "0": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
+                    "text": "Continue",
+                    "item": "Lasso",
+                    "skip": "3"
                 }],
                 "1": [{
                     "text": "",
@@ -159,9 +159,9 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "2"
                 }],
                 "1": [{
                     "text": "",
@@ -181,9 +181,9 @@
             "requirement": "Staff",
             "options": [{
                 "0": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
+                    "text": "Continue",
+                    "item": "Amulet",
+                    "skip": "1"
                 }],
                 "1": [{
                     "text": "",
@@ -203,7 +203,7 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
                     "skip": ""
                 }],
@@ -220,8 +220,8 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Cave entrance.",
             "requirement": "",
             "options": [{
                 "0": [{
