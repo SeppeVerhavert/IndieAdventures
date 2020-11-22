@@ -78,12 +78,12 @@
                 "1": [{
                     "text": "Choose the traders route, I'm not easily surprised!",
                     "item": "",
-                    "skip": ""
+                    "skip": "2"
                 }],
                 "2": [{
                     "text": "Choose the river, I am friend of spirits & nature!",
                     "item": "",
-                    "skip": ""
+                    "skip": "4"
                 }]
             }]
         },
