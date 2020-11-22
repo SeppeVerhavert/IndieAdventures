@@ -6,6 +6,7 @@ var choicesContainer = document.getElementById('choices-container');
 var screenText = document.getElementById('storyText');
 var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
+var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
 var page = -1;
 var fastmode = false;
@@ -36,6 +37,8 @@ async function render(choice) {
     if (data.pages[page].requirement !== "") {
         if (!inventory.includes(data.pages[page].requirement)) {
             page++
+            healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
+            healthBtn.classList.add('damaged');
         }
     }
     startBtn.classList.add('invisible');

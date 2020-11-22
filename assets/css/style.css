@@ -66,6 +66,14 @@ img {
     border-right: 2px solid #000000bf;
 }
 
+.btn.header.damaged {
+    background-color: #50532a;
+}
+
+.btn.header.damaged.damaged {
+    background-color: #262714;
+}
+
 .btn.header.speed.fast {
     background-color: #eaf7b5;
     color: #828f4d;
