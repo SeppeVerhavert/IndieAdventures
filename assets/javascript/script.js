@@ -33,6 +33,11 @@ async function render(choice) {
         skipPage(choice);
     }
     page++;
+    if (data.pages[page].requirement !== "") {
+        if (!inventory.includes(data.pages[page].requirement)) {
+            page++
+        }
+    }
     startBtn.classList.add('invisible');
     choicesContainer.classList.add('invisible');
     img.src = data.pages[page].image;
@@ -45,20 +50,19 @@ function typeWriter(sentence) {
     if (fastmode === true) {
         screenText.innerHTML = sentence;
         showOptions();
-    } 
-    else {
+    } else {
         var index = 0,
-        timer = setInterval(function() {
-            var char= sentence.charAt(index);
-            if(char === '<') {
-                index= sentence.indexOf('>',index);	
-            }
-            screenText.innerHTML= sentence.substr(0,index);
-            if (++index === sentence.length) {
-                clearInterval(timer);
-                showOptions();
-            }
-        }, 20);
+            timer = setInterval(function() {
+                var char = sentence.charAt(index);
+                if (char === '<') {
+                    index = sentence.indexOf('>', index);
+                }
+                screenText.innerHTML = sentence.substr(0, index);
+                if (++index === sentence.length) {
+                    clearInterval(timer);
+                    showOptions();
+                }
+            }, 20);
     }
 }
 
