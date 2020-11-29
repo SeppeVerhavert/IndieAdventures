@@ -22,7 +22,7 @@
             }]
         },
         {
-            "image": "https://i.imgur.com/qO8vMSn.png",
+            "image": "hhttps://i.imgur.com/FVxPOSG.png",
             "text": "Dragon attack.",
             "requirement": "",
             "options": [{
@@ -44,7 +44,7 @@
             }]
         },
         {
-            "image": "https://i.imgur.com/rYZBqF5.png",
+            "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Choose weapon.",
             "requirement": "",
             "options": [{
@@ -66,7 +66,7 @@
             }]
         },
         {
-            "image": "https://i.imgur.com/GNmSRRk.png",
+            "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Choose destination.",
             "requirement": "",
             "options": [{
@@ -225,7 +225,7 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "continue",
                     "item": "",
                     "skip": ""
                 }],
@@ -242,36 +242,36 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Found the sleeping Dragon. Plan of attack?",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
-                    "item": "",
+                    "text": "Climb to the tail.",
+                    "item": "Wand",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
+                    "text": "Rush to the body.",
+                    "item": "Sword",
+                    "skip": "2"
                 }],
                 "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
+                    "text": "Sneak to the head.",
+                    "item": "Crossbow",
+                    "skip": "4"
                 }]
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Climb to the tail success.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Contine",
                     "item": "",
-                    "skip": ""
+                    "skip": "5"
                 }],
                 "1": [{
                     "text": "",
@@ -286,14 +286,14 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Climb to the tail fail.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "4"
                 }],
                 "1": [{
                     "text": "",
@@ -308,14 +308,14 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Rush to the body success.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "3"
                 }],
                 "1": [{
                     "text": "",
@@ -330,14 +330,14 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Rush to the body fail.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "2"
                 }],
                 "1": [{
                     "text": "",
@@ -352,14 +352,14 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Sneak to the head success.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "1"
                 }],
                 "1": [{
                     "text": "",
@@ -374,12 +374,12 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Sneak to the head fail.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "",
+                    "text": "Continue",
                     "item": "",
                     "skip": ""
                 }],
@@ -396,8 +396,8 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack.",
             "requirement": "",
             "options": [{
                 "0": [{
