@@ -97,7 +97,11 @@ function checkOptions() {
 //  ------------------ CHECK HEALTH  ------------------  //
 
 function checkhealth() {
-    if (data.pages[page].requirement !== "") {
+    if (data.pages[page].requirement === "fullhealth") {
+        if (parseInt(healthBtn.innerText.slice(4)) !== 10) {
+            page++;
+        }
+    } else if (data.pages[page].requirement !== "") {
         if (!inventory.includes(data.pages[page].requirement)) {
             page++
             if (parseInt(healthBtn.innerText.slice(4)) === 10) {

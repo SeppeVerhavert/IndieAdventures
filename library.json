@@ -1,7 +1,7 @@
 {
     "pages": [{
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "intro.",
+            "text": "Intro.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -71,17 +71,17 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Choose the forest, I have no fear of wild beasts!",
+                    "text": "Use the forest, I have no fear of wild beasts!",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Choose the traders route, I'm not easily surprised!",
+                    "text": "Use the traders route, I'm not easily surprised!",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Choose the river, I am friend of spirits & nature!",
+                    "text": "Use the river, I am friend of spirits & nature!",
                     "item": "",
                     "skip": "4"
                 }]
@@ -247,17 +247,17 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Climb to the tail.",
+                    "text": "Climb to the tail, a superiour position will win this fight.",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Rush to the body.",
+                    "text": "Rush the body, better to strike fast & hard.",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Sneak to the head.",
+                    "text": "Sneak to the head, hit the beast where it hurts.",
                     "item": "",
                     "skip": "4"
                 }]
@@ -309,7 +309,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Rush to the body success.",
+            "text": "Rush the body success.",
             "requirement": "Sword",
             "options": [{
                 "0": [{
@@ -331,7 +331,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Rush to the body fail.",
+            "text": "Rush the body fail.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -397,21 +397,21 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Ready big attack.",
+            "text": "Ready really big attack.",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Option 1",
+                    "text": "Time for foul play, use a trick.",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Option 2",
+                    "text": "Assess the situation, use your wit.",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Option 3",
+                    "text": "Brace yourself and stand your ground.",
                     "item": "",
                     "skip": "4"
                 }]
@@ -425,7 +425,7 @@
                 "0": [{
                     "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "5"
                 }],
                 "1": [{
                     "text": "",
@@ -441,13 +441,13 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 1 fail",
+            "text": "Big attack 1 fail.",
             "requirement": "",
             "options": [{
                 "0": [{
                     "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "4"
                 }],
                 "1": [{
                     "text": "",
@@ -469,7 +469,7 @@
                 "0": [{
                     "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "3"
                 }],
                 "1": [{
                     "text": "",
@@ -491,7 +491,7 @@
                 "0": [{
                     "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "2"
                 }],
                 "1": [{
                     "text": "",
@@ -513,7 +513,7 @@
                 "0": [{
                     "text": "Continue",
                     "item": "",
-                    "skip": ""
+                    "skip": "1"
                 }],
                 "1": [{
                     "text": "",
@@ -551,7 +551,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Slaying the dragon",
+            "text": "test.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -572,8 +572,52 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Slaying the dragon+.",
+            "requirement": "fullhealth",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": "1"
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Slaying the dragon.",
+            "requirement": "",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": "1"
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Return to the village+.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -594,8 +638,8 @@
             }]
         },
         {
-            "image": "",
-            "text": "",
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Return to the village.",
             "requirement": "",
             "options": [{
                 "0": [{
