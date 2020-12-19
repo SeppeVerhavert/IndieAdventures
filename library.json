@@ -22,7 +22,7 @@
             }]
         },
         {
-            "image": "hhttps://i.imgur.com/FVxPOSG.png",
+            "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Dragon attack.",
             "requirement": "",
             "options": [{
@@ -248,17 +248,17 @@
             "options": [{
                 "0": [{
                     "text": "Climb to the tail.",
-                    "item": "Wand",
+                    "item": "",
                     "skip": ""
                 }],
                 "1": [{
                     "text": "Rush to the body.",
-                    "item": "Sword",
+                    "item": "",
                     "skip": "2"
                 }],
                 "2": [{
                     "text": "Sneak to the head.",
-                    "item": "Crossbow",
+                    "item": "",
                     "skip": "4"
                 }]
             }]
@@ -266,7 +266,7 @@
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Climb to the tail success.",
-            "requirement": "",
+            "requirement": "Staff",
             "options": [{
                 "0": [{
                     "text": "Contine",
@@ -310,7 +310,7 @@
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Rush to the body success.",
-            "requirement": "",
+            "requirement": "Sword",
             "options": [{
                 "0": [{
                     "text": "Continue",
@@ -354,7 +354,7 @@
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Sneak to the head success.",
-            "requirement": "",
+            "requirement": "Crossbow",
             "options": [{
                 "0": [{
                     "text": "Continue",
