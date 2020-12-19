@@ -8,7 +8,7 @@ var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
-var page = -1;
+var page = 3;
 var fastmode = false;
 
 //  ------------------  JSON FETCH  ------------------  //
@@ -37,8 +37,12 @@ async function render(choice) {
     if (data.pages[page].requirement !== "") {
         if (!inventory.includes(data.pages[page].requirement)) {
             page++
+            if (parseInt(healthBtn.innerText.slice(4)) === 10) {
+                healthBtn.classList.add('damaged');
+            } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
+                healthBtn.classList.add('dead');
+            }
             healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
-            healthBtn.classList.add('damaged');
         }
     }
     startBtn.classList.add('invisible');
