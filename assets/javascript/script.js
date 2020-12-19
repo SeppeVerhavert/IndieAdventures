@@ -9,7 +9,7 @@ var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
-var page = 3;
+var page = -1;
 var fastmode = false;
 var dead = false;
 

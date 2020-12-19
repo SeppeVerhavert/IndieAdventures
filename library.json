@@ -397,11 +397,165 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack.",
+            "text": "Ready big attack.",
             "requirement": "",
             "options": [{
                 "0": [{
+                    "text": "Option 1",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "Option 2",
+                    "item": "",
+                    "skip": "2"
+                }],
+                "2": [{
+                    "text": "Option 3",
+                    "item": "",
+                    "skip": "4"
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack 1 success.",
+            "requirement": "Lasso",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
                     "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack 1 fail",
+            "requirement": "",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack 2 success.",
+            "requirement": "Amulet",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack 2 fail.",
+            "requirement": "",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack 3 success.",
+            "requirement": "Shield",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Big attack 3 fail.",
+            "requirement": "",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Slaying the dragon",
+            "requirement": "",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
                     "item": "",
                     "skip": ""
                 }],
