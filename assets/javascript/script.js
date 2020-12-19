@@ -2,6 +2,7 @@
 
 var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
+var endBtn = document.getElementById('end');
 var choicesContainer = document.getElementById('choices-container');
 var screenText = document.getElementById('storyText');
 var choices = document.getElementsByClassName('choice');
@@ -10,6 +11,7 @@ var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
 var page = 3;
 var fastmode = false;
+var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -34,17 +36,7 @@ async function render(choice) {
         skipPage(choice);
     }
     page++;
-    if (data.pages[page].requirement !== "") {
-        if (!inventory.includes(data.pages[page].requirement)) {
-            page++
-            if (parseInt(healthBtn.innerText.slice(4)) === 10) {
-                healthBtn.classList.add('damaged');
-            } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
-                healthBtn.classList.add('dead');
-            }
-            healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
-        }
-    }
+    checkhealth();
     startBtn.classList.add('invisible');
     choicesContainer.classList.add('invisible');
     img.src = data.pages[page].image;
@@ -80,8 +72,14 @@ function showOptions() {
         fadein = setTimeout(function() {
             startBtn.classList.remove('invisible')
         }, 500);
+        setTimeout(function() { checkOptions() }, 500);
+    } else if (dead === true) {
+        fadein = setTimeout(function() {
+            endBtn.classList.remove('invisible')
+        }, 500);
+    } else {
+        setTimeout(function() { checkOptions() }, 500);
     }
-    setTimeout(function() { checkOptions() }, 500);
 }
 
 //  ------------------ CHECK OPTIONS  ------------------  //
@@ -94,6 +92,33 @@ function checkOptions() {
         }
     }
     choicesContainer.classList.remove('invisible');
+}
+
+//  ------------------ CHECK HEALTH  ------------------  //
+
+function checkhealth() {
+    if (data.pages[page].requirement !== "") {
+        if (!inventory.includes(data.pages[page].requirement)) {
+            page++
+            if (parseInt(healthBtn.innerText.slice(4)) === 10) {
+                healthBtn.classList.add('damaged');
+            } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
+                healthBtn.classList.add('dead');
+                gameOver();
+            }
+            healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
+        }
+    }
+}
+
+//  ------------------ GAME END  ------------------  //
+
+function gameOver() {
+    dead = true;
+}
+
+function restart() {
+    location.reload()
 }
 
 //  ------------------ ADD TO INVENTORY ------------------  //
