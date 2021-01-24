@@ -9,8 +9,8 @@ var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
-var page = -1;
-var fastmode = false;
+var speed = 25;
+var page = 5;
 var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
@@ -46,10 +46,13 @@ async function render(choice) {
 //  ------------------ TYPEWRITER  ------------------  //
 
 function typeWriter(sentence) {
-    if (fastmode === true) {
+    if (speed === 0) {
         screenText.innerHTML = sentence;
         showOptions();
+        speedBtn.disabled = false;
     } else {
+        speedBtn.disabled = true;
+        screenText.classList.add('typing');
         var index = 0,
             timer = setInterval(function() {
                 var char = sentence.charAt(index);
@@ -60,8 +63,10 @@ function typeWriter(sentence) {
                 if (++index === sentence.length) {
                     clearInterval(timer);
                     showOptions();
+                    speedBtn.disabled = false;
+                    screenText.classList.remove('typing');
                 }
-            }, 20);
+            }, speed);
     }
 }
 
@@ -144,13 +149,25 @@ function skipPage(choice) {
 //  ------------------ CHANGE SPEED  ------------------  //
 
 function changeSpeed() {
-    if (fastmode === false) {
+    if (speed === 50) {
+        speedBtn.classList.remove('slow');
+        speedBtn.classList.add('instant');
+        speedBtn.innerText = 'INSTANT';
+        speed = 0;
+    } else if (speed === 0) {
+        speedBtn.classList.remove('instant');
         speedBtn.classList.add('fast');
         speedBtn.innerText = 'FAST';
-        fastmode = true;
-    } else if (fastmode === true) {
+        speed = 10;
+    } else if (speed === 10) {
         speedBtn.classList.remove('fast');
+        speedBtn.classList.add('normal');
         speedBtn.innerText = 'NORMAL';
-        fastmode = false;
+        speed = 25;
+    } else if (speed === 25) {
+        speedBtn.classList.remove('normal');
+        speedBtn.classList.add('slow');
+        speedBtn.innerText = 'SLOW';
+        speed = 50;
     }
 }
