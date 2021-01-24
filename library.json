@@ -1,7 +1,7 @@
 {
     "pages": [{
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Intro.",
+            "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you decide how you want to approach the problems you face. Choose carefully and get the perfect score..",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -23,7 +23,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Dragon attack.",
+            "text": "It all happened overnight. The shouting from outside roused you from your sleep. Jumping out of bed you looked out of the window and see your village being consumed by a fiery inferno as if you had woken up in hell. The heat strikes you in the face and smoke is already filling my room. With your eyes, watering from the smoke, you look outside.<br><br>People are screaming, everything is on fire and amidst it all stands a giant creature causing death and destruction. Then you notice the dragon is climbing the castle and you realize that your lord and his family are in danger!<br><br>While you are busy getting dressed the creature lets out a terrifying roar and a rumbling shakes the ground and houses. Once again you look outside, just in time to see the monster grabbing something from the now collapsing tower and taking flight.<br><br>Then the ground opens up beneath your feet and you are swallowed by darkness....",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -45,43 +45,43 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Choose weapon.",
+            "text": "Later you wake up buried under rubble and ash. With maximum effort, you are able to get out of the stones and broken planks that used to be your home. However, one wall still stands straight as if in defiance of what had happened to your village.<br><br>As you stand in front of the wall watching your trusty weapons you decide that you would right the wrong that was done to your people. You would only need to decide what weapon you would be using for this quest....",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Choose the sword,<br>weapon of Champions",
-                    "item": "Sword",
-                    "skip": ""
-                }],
-                "1": [{
                     "text": "Choose the crossbow,<br>weapon of Hunters",
                     "item": "Crossbow",
                     "skip": ""
                 }],
-                "2": [{
+                "1": [{
                     "text": "Choose the staff,<br>weapon of Mages",
                     "item": "Staff",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "Choose the sword,<br>weapon of Champions",
+                    "item": "Sword",
                     "skip": ""
                 }]
             }]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Choose destination.",
+            "text": "With your trusty weapon of choice you now feel ready to embark on your epic quest! Of course, you would first need to find the wretched creature.<br><hr>From the surviving villagers you heard that the dragon kidnapped the princess and flew to the mountains east of the village. Thus you would not only be killing a formidable foe but also get the opportunity to rescue a fair maiden!<br><hr>You also learned that 3 possible roads could lead there.<br><hr>One would travel through the forest, where dangerous creatures are rumored to be stalking through the dense brush.<br><hr>Another road would follow the traders' route through the fields, where one would have to be careful of gangs of bandits and thugs lying in ambush.<br><hr>The last option would be to follow the river where spirits of nature are abundant and best not disturbed.<br><br>Consider carefully the route to travel....",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Use the forest, I have no fear of wild beasts!",
+                    "text": "Use the forest, you have no fear of wild beasts!",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Use the traders route, I'm not easily surprised!",
+                    "text": "Use the traders route, you are not easily surprised!",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Use the river, I am friend of spirits & nature!",
+                    "text": "Use the river, you are friend of spirits & nature!",
                     "item": "",
                     "skip": "4"
                 }]
@@ -89,7 +89,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Forest succes.",
+            "text": "Having chosen your weapon and route you set out bravely in search of the dragon. Before long you arrive at the edge of the forest. The thick brush hinders your movement and the sparse sunlight shining through the canopy makes shadows dance on the forest floor. Traveling deeper into the forest makes you have more difficulty following the road and more than once you have to retrace your steps. During one of these moments, you are investigating the ground below and you see a single paw print of a large forest predator. <br><hr>You then notice that the forest has gone deadly quiet and while you are readying your weapon a dark shape jumps out of the brush. A loud roar rumbles through the forest, transforming into an angry hissing. After a few seconds that changes to silence and the forest becomes quiet once more. Panting, you praise your Luck, as you were able to pull out your sword just in time to see the beast jumping out of the thicket and piercing it on your blade.<br><hr>You can then clearly see the road in front of you, where the beast has created a hole in the brush when it jumped out. You stride forward and find the bones of a less lucky adventurer nearby, still grasping its shield. Seeing as the beast already got them, they probably don't have a need for the shield anymore. You manage to break it free from the bony fingers and take it along on your quest..",
             "requirement": "Sword",
             "options": [{
                 "0": [{
@@ -111,7 +111,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Forest fail.",
+            "text": "Having chosen your weapon and route you set out bravely in search of the dragon. Before long you arrive at the edge of the forest. The thick brush hinders your movement and the sparse sunlight shining through the canopy makes shadows dance on the forest floor. Traveling deeper into the forest makes you have more difficulty following the road and more than once you have to retrace your steps. During one of these moments, you are investigating the ground below and you see a single paw print of a large forest predator. <br><hr>You then notice that the forest has gone deadly quiet and while you are readying your weapon a dark shape jumps out of the brush. A loud roar rumbles through the forest, and the beast jumps on top of you swiping away at you with its claws. You then manage to pull your weapon free and strike the beast. You hear a pained shriek and the creature then flees, leaving you alone and bleeding.<br><hr>You decide it best not to go after the wounded beast because you both are hurt pretty bad. After a while you manage to find another path instead, leading you to the edge of the forest..",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -133,7 +133,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Trade route succes.",
+            "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You follow the common road and pass by the occasional farmhouse. The sun shines and it's a beautiful day. Merrily you continue your travels. As the hours go by the landscape around you changes from farms & meadows to hills.<br><hr>Suddenly a bright flash catches your attention at the top of the hill. You stop walking and look in the direction you have seen the flash. However, there seems to be nothing there, except for the large white rocks that can be found here in abundance. You know this region is rumored to be bandit ambush territory, so better safe than sorry. Taking your bow and arrow you fire a shot as a precaution. As you release the bowstring the arrow disappears between the stones and you hear a sharp cry of pain. The rocks appear to have been an illusion, which quickly vanishes as you see 2 bandits running away, one with an arrow in his shoulder.<br><hr>You decide to climb up the hill to confirm that they have gone. And indeed, there appears to be no trace of the 2 figures anymore. After doing a quick search you find a lasso that the hurt bandit must have left behind. They won't be needing it anymore, so you decide to take it along on your journey, might as well come in handy..",
             "requirement": "Crossbow",
             "options": [{
                 "0": [{
@@ -155,7 +155,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Trade route fail.",
+            "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You follow the common road and pass by the occasional farmhouse. The sun shines and it's a beautiful day. Merrily you continue your travels. As the hours go by the landscape around you changes from farms & meadows to hills.<br><hr>Suddenly a bright flash catches your attention at the top of the hill. You stop walking and look in the direction you have seen the flash. However, there seems to be nothing there, except for the large white rocks that can be found here in abundance. You know this region is rumored to be bandit ambush territory, so better proceed with caution.<br><hr>As you are getting closer to the top you suddenly hear the sound of a crossbow firing and feel a sharp pain as the bolt scrapes your left shoulder. A lesser man or woman might have fled, but you start running to face your yet unseen foe. Upon brandishing your weapons you can see 2 bandits running away from you. The rocks appear to have been an illusion, which quickly vanishes.<br><hr>You quickly get to the top of the hill and before you you can see more hills with the same white large rocks. You decide it won't be worth to try to find these 2 bandits as they have the advantage of superior range. You return to the road and continue your journey to the dragon's hideout..",
             "requirement": "",
             "options": [{
                 "0": [{
