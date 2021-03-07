@@ -10,7 +10,7 @@ var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
 var speed = 25;
-var page = 5;
+var page = -1;
 var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
