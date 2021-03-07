@@ -177,7 +177,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "River succes.",
+            "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You find the small stream at the edge of town, which you know becomes the roaring river dividing the forests and the hillside. As you keep on venturing further you notice the first signs of nature spirits living nearby.<br><hr>Gradually the sound of the rushing river increases and very soon you can't hear anything else anymore. Magical lights float over the water and small shapes can be seen swimming below. You then come upon a few boulders lying in the river which you can use to traverse the rough waters. You ready a spell and call forth the spirit of the passing, calming it until you have made the crossing.<br><hr>At your command the river transforms into a tranquil tributary, allowing you to jump from one rock to the other. You find yourself already halfway when you see a small amulet floating gently towards you. You pick it up and decide that this might be a gift from the spirit of the river, so you put it around your neck.<br><hr>Without any trouble you make it across and thank the river for your gentle passing. Your words have not all been spoken yet or the waters have gone back to their wild churning from before. You continue your journey in good spirits..",
             "requirement": "Staff",
             "options": [{
                 "0": [{
@@ -199,7 +199,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "River fail.",
+            "text": "River route fail.",
             "requirement": "",
             "options": [{
                 "0": [{
