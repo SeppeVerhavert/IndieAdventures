@@ -221,7 +221,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Cave entrance.",
+            "text": "After half a day of travelling the land around becomes more barren and a suplhurous smell fills the air. No doubt you are getting closer to the wretched creature's lair. A short while later you find yourself standing at the foot of the mountain.<br><hr>You search the mountain for any signs of a dragon and you spot a few large clawmarks in the stones to your east. Climbing up you silently sneak past the stones and take a look. A large gloomy cave entrance lies ahead of you, and you hold your breath as the smell of sulphur gets overwhelmingly strong here.<br><hr>This must be the home of the dragon, the target of your quest and your sworn enemy since yesterday evening. You have the feeling that there was something else you were supposed to do here as well, but you don't remember and decide to focus on the dragon and the fight that lies ahead.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -406,7 +406,7 @@
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Assess the situation, use your wit.",
+                    "text": "Assess the situation and think of a plan.",
                     "item": "",
                     "skip": "2"
                 }],
