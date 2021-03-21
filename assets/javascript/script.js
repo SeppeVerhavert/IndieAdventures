@@ -2,13 +2,16 @@
 
 var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
+var endBtn = document.getElementById('end');
 var choicesContainer = document.getElementById('choices-container');
 var screenText = document.getElementById('storyText');
 var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
+var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
+var speed = 25;
 var page = -1;
-var fastmode = false;
+var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
 
@@ -33,6 +36,7 @@ async function render(choice) {
         skipPage(choice);
     }
     page++;
+    checkhealth();
     startBtn.classList.add('invisible');
     choicesContainer.classList.add('invisible');
     img.src = data.pages[page].image;
@@ -42,23 +46,27 @@ async function render(choice) {
 //  ------------------ TYPEWRITER  ------------------  //
 
 function typeWriter(sentence) {
-    if (fastmode === true) {
+    if (speed === 0) {
         screenText.innerHTML = sentence;
         showOptions();
-    } 
-    else {
+        speedBtn.disabled = false;
+    } else {
+        speedBtn.disabled = true;
+        screenText.classList.add('typing');
         var index = 0,
-        timer = setInterval(function() {
-            var char= sentence.charAt(index);
-            if(char === '<') {
-                index= sentence.indexOf('>',index);	
-            }
-            screenText.innerHTML= sentence.substr(0,index);
-            if (++index === sentence.length) {
-                clearInterval(timer);
-                showOptions();
-            }
-        }, 20);
+            timer = setInterval(function() {
+                var char = sentence.charAt(index);
+                if (char === '<') {
+                    index = sentence.indexOf('>', index);
+                }
+                screenText.innerHTML = sentence.substr(0, index);
+                if (++index === sentence.length) {
+                    clearInterval(timer);
+                    showOptions();
+                    speedBtn.disabled = false;
+                    screenText.classList.remove('typing');
+                }
+            }, speed);
     }
 }
 
@@ -69,8 +77,14 @@ function showOptions() {
         fadein = setTimeout(function() {
             startBtn.classList.remove('invisible')
         }, 500);
+        setTimeout(function() { checkOptions() }, 500);
+    } else if (dead === true) {
+        fadein = setTimeout(function() {
+            endBtn.classList.remove('invisible')
+        }, 500);
+    } else {
+        setTimeout(function() { checkOptions() }, 500);
     }
-    setTimeout(function() { checkOptions() }, 500);
 }
 
 //  ------------------ CHECK OPTIONS  ------------------  //
@@ -83,6 +97,37 @@ function checkOptions() {
         }
     }
     choicesContainer.classList.remove('invisible');
+}
+
+//  ------------------ CHECK HEALTH  ------------------  //
+
+function checkhealth() {
+    if (data.pages[page].requirement === "fullhealth") {
+        if (parseInt(healthBtn.innerText.slice(4)) !== 10) {
+            page++;
+        }
+    } else if (data.pages[page].requirement !== "") {
+        if (!inventory.includes(data.pages[page].requirement)) {
+            page++
+            if (parseInt(healthBtn.innerText.slice(4)) === 10) {
+                healthBtn.classList.add('damaged');
+            } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
+                healthBtn.classList.add('dead');
+                gameOver();
+            }
+            healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
+        }
+    }
+}
+
+//  ------------------ GAME END  ------------------  //
+
+function gameOver() {
+    dead = true;
+}
+
+function restart() {
+    location.reload()
 }
 
 //  ------------------ ADD TO INVENTORY ------------------  //
@@ -104,13 +149,25 @@ function skipPage(choice) {
 //  ------------------ CHANGE SPEED  ------------------  //
 
 function changeSpeed() {
-    if (fastmode === false) {
+    if (speed === 50) {
+        speedBtn.classList.remove('slow');
+        speedBtn.classList.add('instant');
+        speedBtn.innerText = 'INSTANT';
+        speed = 0;
+    } else if (speed === 0) {
+        speedBtn.classList.remove('instant');
         speedBtn.classList.add('fast');
         speedBtn.innerText = 'FAST';
-        fastmode = true;
-    } else if (fastmode === true) {
+        speed = 10;
+    } else if (speed === 10) {
         speedBtn.classList.remove('fast');
+        speedBtn.classList.add('normal');
         speedBtn.innerText = 'NORMAL';
-        fastmode = false;
+        speed = 25;
+    } else if (speed === 25) {
+        speedBtn.classList.remove('normal');
+        speedBtn.classList.add('slow');
+        speedBtn.innerText = 'SLOW';
+        speed = 50;
     }
 }
