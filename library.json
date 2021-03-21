@@ -243,7 +243,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Found the sleeping Dragon. Plan of attack?",
+            "text": "With a piece of cloth and some water, you improvise a breathing mask. Taking your last breath of fresh air (at least for a while) you draw your weapon and stride boldly forward into the gaping maw of the dragon's lair.<br><hr>The heavy noxious fumes sting your eyes and make it difficult to breathe. A dim orange glow lights the way ahead. The temperature is rising unwaveringly while you approach. With your back against the wall, you bravely peek around the corner.<br><hr>A large cavern stretches out before you, piles of glittering treasure lying everywhere. The heat is almost unbearable here and you soon see the reason why. Bubbling pools of lava are filling the place with their searing heat, occasionally spewing droplets of the red-hot liquid in the air when one of the larger bubbles burst. You make a note to yourself to stay away from these.<br><hr>Near the center of the room you can see a circle of cyclopean pillars, some reaching to the ceiling while others have crumbled. On the remains of one of these perished cylinders, you can see the huge form of the dragon! You freeze momentarily but sigh in relief when you see the monstrosity is sleeping amidst its riches.<br><hr>Now would be a perfect time to strike, if you can decide on the best way to slay this serpent....",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -530,28 +530,6 @@
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Big attack 3 fail.",
-            "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
-        },
-        {
-            "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "test.",
             "requirement": "",
             "options": [{
                 "0": [{
