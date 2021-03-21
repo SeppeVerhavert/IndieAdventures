@@ -1,0 +1,129 @@
+{
+    "pages": [{
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you decide how you want to approach the problems you face. Choose carefully and get the perfect score..",
+            "options": [{
+                "0": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/qO8vMSn.png",
+            "text": "It all happened overnight. The shouting from outside roused me from my sleep. Jumping out of bed I looked out of the window and saw my own village being consumed by a fiery inferno as if I had woken up in hell. The heat struck me in the face and smoke was already filling my room. With watery eyes I looked outside.<br><hr>People were screaming, everything was on fire and amidst it all was a giant creature causing death and destruction. Then I noticed it was climbing the castle and I realised that my lord and his family were in danger!<br><hr>While I was busy getting dressed the creature let out a terrifying roar and a rumbling shook the ground and houses. Once again I looked outside, just in time to see the monster grabbing something from the now collapsing tower and taking flight.<br><hr>Then the ground opened up beneath my feet and I was swallowed by darkness.<br><br>....",
+            "options": [{
+                "0": [{
+                    "text": "Continue",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/rYZBqF5.png",
+            "text": "later I woke up burried under rubble and ash. With maximum effort I was able to get out from the stones and broken planks that used to be my home. However one wall still stood straight as if in defiance of what had happened to my village.<br><hr>As I stood in front of the wall watching my trusty weapons I decided I would right the wrong that was done to my people. I would only need to decide what weapon I would be using for this quest....",
+            "options": [{
+                "0": [{
+                    "text": "Choose the sword,<br>weapon of Champions",
+                    "item": "Sword",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "Choose the crossbow,<br>weapon of Hunters",
+                    "item": "Crossbow",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "Choose the staff,<br>weapon of Mages",
+                    "item": "Staff",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/GNmSRRk.png",
+            "text": "With my trusty weapon of choice I was now ready to embark on my epic quest! Of course I would first need to find the wretched creature.<br><hr>From the surviving villagers I heard that the dragon kidnapped our princess and flew to the mountians east of the village. Thus I would not only be killing a formidable foe, but also got the opportunity to rescue a fair maiden!<br><hr>I also learned that there were 3 possible roads that could lead there.<br><hr>One would travel through the forest, where dangerous creatures are rumored to be stalking through the dense brush.<br><hr>Another road would follow the traders route through the fields, where one would have to be careful for gangs of bandits and thugs lying in ambush.<br><hr>The last option would be to follow the river where spirits of nature are abundand and best approached carefully.<br><br>I must consider carefully the route to travel....",
+            "options": [{
+                "0": [{
+                    "text": "Choose the forest, I have no fear of wild beasts!",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "Choose the traders route, I'm not easily surprised!",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "Choose the river, I am friend of spirits & nature!",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "",
+            "text": "",
+            "options": [{
+                "0": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "",
+            "text": "",
+            "options": [{
+                "0": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        }
+    ]
+}
