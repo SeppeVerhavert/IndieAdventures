@@ -180,6 +180,10 @@ img {
     border-right: 5px #3d3d3d solid;
 }
 
+.disabled {
+    user-select: none;
+}
+
 
 /* Media Querries */
 
