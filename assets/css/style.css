@@ -20,6 +20,10 @@ body {
     font-size: 20px;
 }
 
+.typing {
+    padding-bottom: 100px;
+}
+
 .button-container {
     display: flex;
 }
@@ -66,7 +70,16 @@ img {
     border-right: 2px solid #000000bf;
 }
 
-.btn.header.speed.fast {
+.btn.header.damaged {
+    background-color: #50532a;
+}
+
+.btn.header.dead {
+    background-color: #262714;
+}
+
+.btn.header.speed.fast,
+.btn.header.speed.instant {
     background-color: #eaf7b5;
     color: #828f4d;
 }
@@ -126,6 +139,10 @@ img {
     border-color: #828f4d;
     outline: none;
     box-shadow: none;
+}
+
+.disabled {
+    user-select: none;
 }
 
 
