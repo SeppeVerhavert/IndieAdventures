@@ -35,6 +35,10 @@ p {
     font-size: small;
 }
 
+#storyText {
+    padding-bottom: 50px;
+}
+
 img {
     width: 94%;
     border-radius: 3%;
@@ -57,7 +61,7 @@ img {
     border: none;
     color: #f8f8c8;
     background: #b8c058;
-    box-shadow: inset -4px -4px 0px 0px #808840;
+    box-shadow: inset -5px -5px 0px 0px #808840 !important;
 }
 
 .btn:before {
@@ -88,11 +92,21 @@ img {
 }
 
 .btn.header.damaged {
-    background-color: #808840;
+    color: #808840 !important;
+    background: #405028 !important;
+    box-shadow: inset -5px -5px 0px 0px #2b361b !important;
 }
 
 .btn.header.dead {
-    background-color: #405028;
+    color: #405028 !important;
+    background: #2b361b !important;
+    box-shadow: inset -5px -5px 0px 0px #1b1b12 !important;
+}
+
+.btn.header.health:focus {
+    color: #f8f8c8 !important;
+    background: #b8c058 !important;
+    box-shadow: inset -5px -5px 0px 0px #808840 !important;
 }
 
 .btn.header.speed.fast,
@@ -103,9 +117,9 @@ img {
 .btn.header.speed.instant:hover,
 .btn.header.speed.instant:active,
 .btn.header.speed.instant:focus {
-    box-shadow: inset -5px -5px 0px 0px #c7c7b7 !important;
-    background: #f8f8c8 !important;
     color: #b8c058 !important;
+    background: #f8f8c8 !important;
+    box-shadow: inset -5px -5px 0px 0px #c7c7b7 !important;
 }
 
 .btn.header.speed.normal,
@@ -178,10 +192,6 @@ img {
     top: 0;
     border-left: 5px #3d3d3d solid;
     border-right: 5px #3d3d3d solid;
-}
-
-.disabled {
-    user-select: none;
 }
 
 

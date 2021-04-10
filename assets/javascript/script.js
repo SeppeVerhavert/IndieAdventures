@@ -60,7 +60,7 @@ function typeWriter(sentence) {
                     index = sentence.indexOf('>', index);
                 }
                 screenText.innerHTML = sentence.substr(0, index);
-                if (++index === sentence.length) {
+                if (++index === sentence.length + 1) {
                     clearInterval(timer);
                     showOptions();
                     speedBtn.disabled = false;
@@ -161,11 +161,9 @@ function changeSpeed() {
         speed = 10;
     } else if (speed === 10) {
         speedBtn.classList.remove('fast');
-        speedBtn.classList.add('normal');
         speedBtn.innerText = 'NORMAL';
         speed = 25;
     } else if (speed === 25) {
-        speedBtn.classList.remove('normal');
         speedBtn.classList.add('slow');
         speedBtn.innerText = 'SLOW';
         speed = 50;
