@@ -35,6 +35,10 @@ p {
     font-size: small;
 }
 
+#storyText {
+    padding-bottom: 50px;
+}
+
 img {
     width: 94%;
     border-radius: 3%;
