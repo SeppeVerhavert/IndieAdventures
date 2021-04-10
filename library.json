@@ -265,7 +265,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "With your staff and arcane prowess, you don't have to climb to get to a superior position. In a hushed voice, you mutter a spell of flying and silently float to the tail where you can get a good look at the creature.<br><hr>Noticing an old scar at the back of the dragon, you decide it would be best to focus on this already weakened spot in its though scaled armor. Just as you are ready to release your spell the dragon rolls over in its sleep, causing your acid blast to miss it's mark and hit a healthy scale instead.<br><hr>For a brief moment the whole cavern goes quiet and only a soft sizzling of the acid can be heard. Then an eye as big as your body flashes open and stares straight at you!.",
+            "text": "With your staff and arcane prowess, you don't have to climb to get to a superior position. In a hushed voice, you mutter a spell of flying and silently float to the tail where you can get a good look at the creature.<br><hr>Noticing an old scar at the back of the dragon, you decide it would be best to focus on this already weakened spot in its though scaled armor. Just as you are ready to release your spell the dragon rolls over in its sleep, causing your acid blast to miss it's mark and hit a healthy scale instead.<br><hr>For a brief moment the whole cavern goes quiet and only a soft sizzling of the acid can be heard. Then an eye as big as your body flashes open and stares straight at you!",
             "requirement": "Staff",
             "options": [{
                 "0": [{
@@ -287,7 +287,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "As silently as possible with your armor, you start climbing the pillar where the tail has been circled around. The sharp dragon claws have made numerous foot and handholds for you, so the climb is relatively easy.<br><hr>Making sure not to touch the long draconic tail, you quickly arrive at the top. You pull yourself over the edge and jump up, ready to make your surprise attack! However, there seems to be a minor issue as the body of the dragon is no longer there.<br><hr>Then you hear a low hissing behind you and with lightning reflexes, you turn around. Just in time to see one dragon claw as big as a house coming straight at you. There is no time to dodge and the claw hits you full on. The force of the blow sweeps you off the pillar and dazed you fall between the coins and treasures.",
+            "text": "As silently as possible with your armor, you start climbing the pillar where the tail has been circled around. The sharp dragon claws have made numerous foot and handholds for you, so the climb is relatively easy.<br><hr>Making sure not to touch the long draconic tail, you quickly arrive at the top. You pull yourself over the edge and jump up, ready to make your surprise attack! However, there seems to be a minor issue as the dragon's body is no longer there.<br><hr>Then you hear a low hissing behind you and with lightning reflexes, you turn around. Just in time to see one dragon claw as big as a horse coming straight at you. There is no time to dodge and the claw hits you full on. The force of the blow sweeps you off the pillar and dazed you fall between the coins and treasures.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -309,7 +309,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Rush the body success.",
+            "text": "Now is not the time for thinking, you could lose this edge if you don't use it right now. Quick as lightning you dash towards the body and the soft underbelly of the gigantic monstrosity.<br><hr>Sword at the ready, you choose a spot between 2 scales. But then you suddenly see its muscles starting to move as the creature has likely heard your approach. With an almost inhuman effort, you jump the last few feet and manage to connect your blade with the rising body of the dragon.<br><hr>Your sword sinks in deep and an agonized wail fills the cavern as you draw blood from the creature. The dragon then beats its wings, the pressure forcing you to release your sword still stuck in its body.",
             "requirement": "Sword",
             "options": [{
                 "0": [{
@@ -331,7 +331,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Rush the body fail.",
+            "text": "As you are rushing towards the dragon's torso you realize that you have no way of penetrating the thick scales up close. You decide on using a ranged attack instead while dashing over the coins and treasure laying about.<br><hr>This proved to be not the best of tactics as this appeared to be rather difficult. The clattering of coins and gems must have alerted the creature and you could see that it was getting up. You might have missed your opportunity, but you released your attack anyway.<br><hr>Harmlessly it bounced of the thick dragon scales, now that the soft underbelly of the dragon was no longer visible. From the edge of your vision, you could see something approaching rapidly and the next moment the dragon's tail lashed out at you, knocking you over.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -353,8 +353,8 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Sneak to the head success.",
-            "requirement": "Crossbow",
+            "text": "A true master of shadows, you sneakily move between the stolen artifacts and golden weapons making sure to move in synch with the breathing of the colossal creature. In between breaths, you wait and plot your next few paces inching closer and closer.<br><hr>30 tense minutes later you arrive in front of the head. You can see several teeth as long as your forearm protruding between the dragon's scaly lips. Suddenly the creature lets out a deep sigh and its breath washes over you. Disgusted by the foul air and the dragon's audacity to blow it on you you draw your bow and aim for the eye.<br><hr>You shout:'Wake up, big lizard!' The eyes of the dragon open in an instant and focus on you. This is the perfect moment, you fire your arrow and it strikes its target. Unfortunately for you, dragons have an invisible scale covering their eyes, but the arrow manages to make a large scratch in the center.",
+            "requirement": "",
             "options": [{
                 "0": [{
                     "text": "Continue",
