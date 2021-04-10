@@ -57,7 +57,7 @@ img {
     border: none;
     color: #f8f8c8;
     background: #b8c058;
-    box-shadow: inset -5px -5px 0px 0px #808840;
+    box-shadow: inset -5px -5px 0px 0px #808840 !important;
 }
 
 .btn:before {
@@ -88,11 +88,15 @@ img {
 }
 
 .btn.header.damaged {
-    background-color: #808840;
+    color: #808840 !important;
+    background: #405028 !important;
+    box-shadow: inset -5px -5px 0px 0px #2b361b !important;
 }
 
 .btn.header.dead {
-    background-color: #405028;
+    color: #405028 !important;
+    background: #2b361b !important;
+    box-shadow: inset -5px -5px 0px 0px #1b1b12 !important;
 }
 
 .btn.header.health:focus {
