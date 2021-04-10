@@ -353,7 +353,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "A true master of shadows, you sneakily move between the stolen artifacts and golden weapons making sure to move in synch with the breathing of the colossal creature. In between breaths, you wait and plot your next few paces inching closer and closer.<br><hr>30 tense minutes later you arrive in front of the head. You can see several teeth as long as your forearm protruding between the dragon's scaly lips. Suddenly the creature lets out a deep sigh and its breath washes over you. Disgusted by the foul air and the dragon's audacity to blow it on you you draw your bow and aim for the eye.<br><hr>You shout:'Wake up, big lizard!' The eyes of the dragon open in an instant and focus on you. This is the perfect moment, you fire your arrow and it strikes its target. Unfortunately for you, dragons have an invisible scale covering their eyes, but the arrow manages to make a large scratch in the center.",
+            "text": "Like a true master of shadows, you sneakily move between the stolen artifacts and golden weapons. Making sure to move in synch with the breathing of the colossal creature. In between breaths, you wait and plot your next few paces inching closer and closer.<br><hr>30 tense minutes later you arrive in front of the head. You can see several teeth as big as you protruding between the dragon's scaly lips. Suddenly the creature lets out a deep sigh and its breath washes over you. Disgusted by the foul air and the dragon's audacity to blow it on a hero, you draw your bow and aim for the eye.<br><hr>Shouting: 'Wake up, big lizard!', the eyes of the dragon open in an instant and focus on you. This is the perfect moment, you fire your arrow striking its target. Unfortunately for you, dragons have an invisible scale covering their eyes, but the attack does manage to make a large scratch in the center.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -375,7 +375,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Sneak to the head fail.",
+            "text": "Like a true master of shadows, you sneakily move between the stolen artifacts and golden weapons. Making sure to move in synch with the breathing of the colossal creature. In between breaths, you wait and plot your next few paces inching closer and closer.<br><hr>After 30 tense minutes, you arrive in front of the head. You can see several teeth as big as you protruding between the dragon's scaly lips. Suddenly the creature lets out a deep sigh and its breath washes over you. Disgusted by the foul air and the dragon's audacity to blow it on a hero, you draw your weapon.<br><hr>You realize you are still too far off to do any harm and you start moving closer. However, the next moment you see the dragon taking a few big sniffs, and its eyes shoot open! You missed your moment and a large claw strikes your body, drawing blood on several deep cuts.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -397,21 +397,21 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Ready really big attack.",
+            "text": "The dragon then rears up and lets out a ceiling shaking roar. Dust and rocks come falling down and you see the dragon's open maw filling with a light coming from its throat. It must mean to use its fiery breath on you!<br><hr>Luckily this gives you a short moment to think and your head becomes clear. Possible plans start to come to you and you decide on the best way forward in this epic fight. How would you like the bards to sing about you in your legendary battle?",
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Time for foul play, use a trick.",
+                    "text": "I shall be known as the Trickster, time for foul play!",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Assess the situation and think of a plan.",
+                    "text": "I shall be known as the Wise, time for a spell!",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Brace yourself and stand your ground.",
+                    "text": "I shall be known as the Brave, time to stand my ground!",
                     "item": "",
                     "skip": "4"
                 }]
