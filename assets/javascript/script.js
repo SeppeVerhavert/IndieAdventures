@@ -9,8 +9,8 @@ var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
-var speed = 25;
-var page = -1;
+var speed = 0;
+var page = 24;
 var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
@@ -106,19 +106,27 @@ function checkhealth() {
         if (parseInt(healthBtn.innerText.slice(4)) !== 10) {
             page++;
         }
+        takedamage();
     } else if (data.pages[page].requirement !== "") {
         if (!inventory.includes(data.pages[page].requirement)) {
             page++
-            if (parseInt(healthBtn.innerText.slice(4)) === 10) {
-                healthBtn.classList.add('damaged');
-            } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
-                healthBtn.classList.add('dead');
-                gameOver();
-            }
-            healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
+            takedamage();
         }
     }
 }
+
+//  ------------------ TAKE DAMAGE  ------------------  //
+
+function takedamage() {
+    if (parseInt(healthBtn.innerText.slice(4)) === 10) {
+        healthBtn.classList.add('damaged');
+    } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
+        healthBtn.classList.add('dead');
+        gameOver();
+    }
+    healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
+}
+
 
 //  ------------------ GAME END  ------------------  //
 
