@@ -397,7 +397,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "The dragon then rears up and lets out a ceiling shaking roar. Dust and rocks come falling down and you see the dragon's open maw filling with a light coming from its throat. It must mean to use its fiery breath on you!<br><hr>Luckily this gives you a short moment to think and your head becomes clear. Possible plans start to come to you and you decide on the best way forward in this epic fight. How would you like the bards to sing about you in your legendary battle?",
+            "text": "The dragon then rears up and lets out a ceiling-shaking roar. Dust and rocks come falling down and you see the dragon's open maw filling with a light coming from its throat. It must mean to use its fiery breath on you!<br><hr>Luckily this gives you a short moment to think and your head becomes clear. Possible plans start to come to you and you decide on the best way forward in this epic fight. How would you like the bards to sing about you in your legendary battle?",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -419,7 +419,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 1 success.",
+            "text": "You grab your lasso and with one smooth throw, you manage to get it around the dragon's open maw. This trick will be all or nothing, as the dragon won't be hindered long when you tighten the loop. An eternal second of waiting goes by until you finally see the flames at the back of the monster's throat.<br><hr>With all your might you jank the lasso forcing the mighty creature's jaws to close. You can see smoke coming from its nostrils and then suddenly the lasso snaps. The big lizard rears up, obviously pained by the flames that could not escape its mouth, and lets out a sharp cry of agony.",
             "requirement": "Lasso",
             "options": [{
                 "0": [{
@@ -441,7 +441,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 1 fail.",
+            "text": "You might consider yourself crafty, but you appear to be out of tricks at this moment. If you would only have some rope, you might have been able to do something else here. Alas, the time for thinking has passed and the dragon then starts breathing fire. You bravely jump out of the way, but some of the flames manage to connect with you regarldess.<br><hr>A searing pain comes from your left arm, but you can still feel the terrible heat coming from behind. You jump again, dashing through the treasures. Unfortunately, your shoe gets stuck behind a crown with ridiculous ornaments, and with a hard smack, you land on the pile of gold. You close your eyes, accepting that this might be the end.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -463,7 +463,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 2 success.",
+            "text": "You grab your magical amulet given to you by the spirit of the river. Calling upon its protection, you draw arcane runes into the air with your staff. A cold blue light fills the cavern and then a tendril of water erupts from the amulet and shoots for the dragon. Upon connecting, it wraps itself around, its head now enveloped by a sphere of water.<br><hr>The flames in the monster's throat are instantly doused. Deprived of its eyesight the scaled behemoth thrashes around, clawing at the water. The blue light then fades from the amulet. And the next moment the water vanishes, leaving only the dragon, who is now looking at you with a renewed anger.",
             "requirement": "Amulet",
             "options": [{
                 "0": [{
@@ -485,7 +485,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 2 fail.",
+            "text": "Drawing arcane symbols with your fingers through the air you try to summon the power of water to help you withstand this fiend's fire. A thin sheet of water sizzles into existence and stands between you and the dragon, spattering a few droplets of water on the hot stones. You realize that your magic might not be enough to battle this dragon alone.<br><hr>If only you would have access to a more powerful artifact or the help of a magical creature, things would have been very different now. A stream of fire then comes racing towards you and while the sheet of water protects you from the worst damage, the searing heat still burns most of your skin, leaving you in searing pain. You close your eyes, accepting that this might be the end.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -507,7 +507,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 3 success.",
+            "text": "You grab your shield and duck down, holding it in front of you as cover. This might not have been the most clever plan, you think in hindsight, but it is the one you are going with for now. A stream of fire then comes racing towards you.<br><hr>And rushes past, as it was aimed at you before you ducked. The shield comes in handy by protecting you from the worst heat, but grows considerably hotter itself until you almost can't hold it anymore. As the flames stop you immediately throw it at the dragon's head and strike it right in the eye!",
             "requirement": "Shield",
             "options": [{
                 "0": [{
@@ -529,7 +529,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Big attack 3 fail.",
+            "text": "Of course, you did not mean that literally, as if you could stay in the same space when a dragon was breathing fire all over you, right?. It was more like a figuratively stand your ground, meaning that you would fight back. You nod in agreement with yourself and dash towards the scaled giant.<br><hr>A stream of flames then hits the spot where you had been standing only one second ago, melting the treasure into a big golden puddle. With a battle cry on your lips, you boldly run further until a dragon talon strikes you from the side, knocking you over. You close your eyes, accepting that this might be the end.",
             "requirement": "",
             "options": [{
                 "0": [{
@@ -551,7 +551,29 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Slaying the dragon+.",
+            "text": "As the dragon rears up again to its full size, it lets out another earthshattering roar. More of the ceiling starts to come down and you can see one of the pillars fall down. A cloud of hot dust then rushes through the cave and blinded by rage, dust and the falling rubble the red titan then starts clawing at everything.<br><hr>You then notice that all the remaining cylinders are shaking and one by one they start collapsing. A white cloud of dust falls over the cavern and you hear the cries of the dragon coming from its midst. Suddenly, you see a door that you have not noticed before at the back of the cave. However, this room is about to collapse so you must be quick. Do you risk it?",
+            "requirement": "",
+            "options": [{
+                "0": [{
+                    "text": "Sure, they don't call me Sir Indie the Brave for nothing!",
+                    "item": "",
+                    "skip": ""
+                }],
+                "1": [{
+                    "text": "Get out the way you came, while you still can!",
+                    "item": "",
+                    "skip": "1"
+                }],
+                "2": [{
+                    "text": "",
+                    "item": "",
+                    "skip": ""
+                }]
+            }]
+        },
+        {
+            "image": "https://i.imgur.com/FVxPOSG.png",
+            "text": "Hoping for treasure or even a different way out you rush towards the door, but this one is shut tight. Rocks the size of your head are falling down from the ceiling and one hits the side of your head. The room darkens for a second, but you manage to shrug it off. <br><hr>You ram your shoulder against the wooden door and the dry wood breaks under your might. In front of you stands a figure chained to the wall. You recognize her as the princess! Obviously, you remembered to save the princess, brave knights always remember to save the princess, and that's why you are here.<br><hr>However, the cavern seems to be collapsing rapidly now as you manage to set the princess free. You hear the noise of loudly bursting stone and for the second time today, everything goes dark.",
             "requirement": "fullhealth",
             "options": [{
                 "0": [{
@@ -573,7 +595,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Slaying the dragon.",
+            "text": "You decide against it and run back the way you came. Falling debris is now all around. Somehow you dodge through the splashing droplets of lava. Dust and smoke are now blinding you and more than you can see you remember the way back.<br><hr>Suddenly you feel a fresh draft of air and you realize you must be close to the exit. With renewed vigor, you start running, and just as you appear outside of the cavern, the mountain collapses in behind you, probably killing everything that was still inside.",
             "requirement": "",
             "options": [{
                 "0": [{
