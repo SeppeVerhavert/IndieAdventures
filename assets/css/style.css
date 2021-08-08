@@ -4,7 +4,11 @@
     margin: 0;
 }
 
-:root {
+
+/* _____ COLOR SCHEME GREEN _____ */
+
+
+/* :root {
     --color1: #CADC9F;
     --color2: #0f3b0f;
     --color3: #306230;
@@ -13,12 +17,26 @@
     --color6: #1b1b12;
     --background: #444;
     --shadow: #3d3d3d;
+} */
+
+
+/* _____ COLOR SCHEME RED _____ */
+
+:root {
+    --color1: #ffabab;
+    --color2: #f80000;
+    --color3: #fe0200;
+    --color4: #8d0000;
+    --color5: #c10000;
+    --color6: #1b1b12;
+    --background: #444;
+    --shadow: #3d3d3d;
 }
 
 body {
     background-color: var(--background);
-    margin-bottom: 7%;
-    padding-bottom: 7%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
     font-family: 'Press Start 2P', cursive;
     color: var(--color1);
 }
@@ -32,10 +50,6 @@ body {
     font-size: 20px;
 }
 
-.typing {
-    padding-bottom: 100px;
-}
-
 .button-container {
     display: flex;
     box-shadow: 0px 0px 3px 3px var(--shadow);
@@ -46,8 +60,17 @@ p {
     font-size: small;
 }
 
+.textfield {
+    max-height: 250px;
+    overflow: scroll;
+}
+
 #storyText {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+#storyText.typing {
+    padding-bottom: 175px;
 }
 
 img {
@@ -58,7 +81,7 @@ img {
 
 .choice {
     margin-top: 25px;
-    color: var(--color4);
+    color: var(--color5);
 }
 
 
@@ -184,7 +207,7 @@ img {
 
 @media only screen and (min-width: 1024px) {
     .container {
-        width: 30%;
+        width: 90%;
     }
 }
 
