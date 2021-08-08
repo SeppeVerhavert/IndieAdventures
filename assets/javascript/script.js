@@ -46,7 +46,7 @@ async function render(choice) {
 //  ------------------ TYPEWRITER  ------------------  //
 
 function typeWriter(sentence) {
-    if (speed === 0) {
+    if (speed === 0 || page === 0) {
         screenText.innerHTML = sentence;
         showOptions();
         speedBtn.disabled = false;
