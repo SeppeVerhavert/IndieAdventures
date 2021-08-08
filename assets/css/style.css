@@ -25,10 +25,10 @@
 :root {
     --color1: #ffabab;
     --color2: #f80000;
-    --color3: #fe0200;
+    --color3: #5e0000;
     --color4: #8d0000;
     --color5: #c10000;
-    --color6: #1b1b12;
+    --color6: #281b1b;
     --background: #444;
     --shadow: #3d3d3d;
 }
@@ -61,8 +61,8 @@ p {
 }
 
 .textfield {
-    max-height: 250px;
-    overflow: scroll;
+    max-height: 225px;
+    overflow-y: scroll;
 }
 
 #storyText {
@@ -70,7 +70,7 @@ p {
 }
 
 #storyText.typing {
-    padding-bottom: 175px;
+    padding-bottom: 50px;
 }
 
 img {
@@ -131,14 +131,14 @@ img {
 }
 
 .btn.header.damaged {
-    color: var(--color5);
-    background: var(--color3);
-    box-shadow: inset -5px -5px 0px 0px var(--color2) !important;
+    color: var(--color1);
+    background: var(--color4);
+    box-shadow: inset -5px -5px 0px 0px var(--color3) !important;
 }
 
 .btn.header.dead {
-    color: var(--color3) !important;
-    background: var(--color2) !important;
+    color: var(--color1) !important;
+    background: var(--color3) !important;
     box-shadow: inset -5px -5px 0px 0px var(--color6) !important;
 }
 
@@ -201,18 +201,31 @@ img {
 
 @media only screen and (min-width: 768px) {
     .container {
-        width: 40%;
+        width: 75%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .container {
-        width: 90%;
+        width: 50%;
+        margin-top: 3%;
     }
 }
 
-@media only screen and (min-width: 1440px) {
-    .container {
-        width: 20%;
+@media only screen and (min-height: 700px) {
+    .textfield {
+        max-height: 325px;
+    }
+}
+
+@media only screen and (min-height: 810px) {
+    .textfield {
+        max-height: 425px;
+    }
+}
+
+@media only screen and (min-height: 900px) {
+    .textfield {
+        max-height: 575px;
     }
 }
