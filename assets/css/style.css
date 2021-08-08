@@ -4,12 +4,23 @@
     margin: 0;
 }
 
+:root {
+    --color1: #CADC9F;
+    --color2: #0f3b0f;
+    --color3: #306230;
+    --color4: #8bac0f;
+    --color5: #9bbc0f;
+    --color6: #1b1b12;
+    --background: #444;
+    --shadow: #3d3d3d;
+}
+
 body {
-    background-color: #444;
+    background-color: var(--background);
     margin-bottom: 7%;
     padding-bottom: 7%;
     font-family: 'Press Start 2P', cursive;
-    color: #eaf7b5;
+    color: var(--color1);
 }
 
 .container {
@@ -27,7 +38,7 @@ body {
 
 .button-container {
     display: flex;
-    box-shadow: 0px 0px 3px 3px #3d3d3d;
+    box-shadow: 0px 0px 3px 3px var(--shadow);
 }
 
 p {
@@ -47,7 +58,7 @@ img {
 
 .choice {
     margin-top: 25px;
-    color: #b8c058;
+    color: var(--color4);
 }
 
 
@@ -59,32 +70,37 @@ img {
     margin-top: 25px;
     border-radius: 0;
     border: none;
-    color: #f8f8c8;
-    background: #b8c058;
-    box-shadow: inset -5px -5px 0px 0px #808840 !important;
+    color: var(--color1);
+    background: var(--color5);
+    box-shadow: inset -5px -5px 0px 0px var(--color4) !important;
 }
 
 .btn:before {
     top: -5px;
     left: 0;
-    border-top: 5px #3d3d3d solid;
-    border-bottom: 5px #3d3d3d solid;
+    border-top: 5px var(--shadow) solid;
+    border-bottom: 5px var(--shadow) solid;
 }
 
 .btn:after {
     left: -5px;
     top: 0;
-    border-left: 5px #3d3d3d solid;
-    border-right: 5px #3d3d3d solid;
+    border-left: 5px var(--shadow) solid;
+    border-right: 5px var(--shadow) solid;
 }
 
 .btn.header {
     width: 50%;
     font-size: 20px;
     margin-top: 0px;
-    background-color: #b8c058;
-    color: #f8f8c8;
     border-radius: 0px;
+}
+
+.btn.header:focus,
+.btn.header:hover {
+    color: var(--color1);
+    background: var(--color5);
+    box-shadow: inset -5px -5px 0px 0px var(--color4) !important;
 }
 
 .btn.header:first-child {
@@ -92,52 +108,15 @@ img {
 }
 
 .btn.header.damaged {
-    color: #808840 !important;
-    background: #405028 !important;
-    box-shadow: inset -5px -5px 0px 0px #2b361b !important;
+    color: var(--color5);
+    background: var(--color3);
+    box-shadow: inset -5px -5px 0px 0px var(--color2) !important;
 }
 
 .btn.header.dead {
-    color: #405028 !important;
-    background: #2b361b !important;
-    box-shadow: inset -5px -5px 0px 0px #1b1b12 !important;
-}
-
-.btn.header.health:focus {
-    color: #f8f8c8 !important;
-    background: #b8c058 !important;
-    box-shadow: inset -5px -5px 0px 0px #808840 !important;
-}
-
-.btn.header.speed.fast,
-.btn.header.speed.instant,
-.btn.header.speed.fast:hover,
-.btn.header.speed.fast:active,
-.btn.header.speed.fast:focus,
-.btn.header.speed.instant:hover,
-.btn.header.speed.instant:active,
-.btn.header.speed.instant:focus {
-    color: #b8c058 !important;
-    background: #f8f8c8 !important;
-    box-shadow: inset -5px -5px 0px 0px #c7c7b7 !important;
-}
-
-.btn.header.speed.normal,
-.btn.header.speed.normal:hover,
-.btn.header.speed.normal:active,
-.btn.header.speed.normal:focus {
-    color: #f8f8c8 !important;
-    background: #b8c058 !important;
-    box-shadow: inset -5px -5px 0px 0px #808840 !important;
-}
-
-.btn.header.speed.slow,
-.btn.header.speed.slow:hover,
-.btn.header.speed.slow:active,
-.btn.header.speed.slow:focus {
-    color: #808840 !important;
-    background: #405028 !important;
-    box-shadow: inset -5px -5px 0px 0px #2b361b !important;
+    color: var(--color3) !important;
+    background: var(--color2) !important;
+    box-shadow: inset -5px -5px 0px 0px var(--color6) !important;
 }
 
 .invisible {
@@ -159,16 +138,16 @@ img {
 }
 
 .btn.btn-secondary:hover {
-    box-shadow: inset -7.5px -7.5px 0px 0px #808840;
-    color: #f8f8c8;
-    background: #b8c058;
+    box-shadow: inset -7.5px -7.5px 0px 0px var(--color2) !important;
+    background: var(--color3) !important;
+    color: var(--color4) !important;
 }
 
 .btn.btn-secondary:active,
 .btn.btn-secondary:focus {
-    box-shadow: inset -5px -5px 0px 0px #808840 !important;
-    background: #f8f8c8 !important;
-    color: #b8c058 !important;
+    box-shadow: inset -5px -5px 0px 0px var(--color2) !important;
+    background: var(--color3) !important;
+    color: var(--color4) !important;
 }
 
 .btn.btn-secondary:before,
@@ -183,15 +162,15 @@ img {
 .btn.btn-secondary:before {
     top: -5px;
     left: 0;
-    border-top: 5px #3d3d3d solid;
-    border-bottom: 5px #3d3d3d solid;
+    border-top: 5px var(--shadow) solid;
+    border-bottom: 5px var(--shadow) solid;
 }
 
 .btn.btn-secondary:after {
     left: -5px;
     top: 0;
-    border-left: 5px #3d3d3d solid;
-    border-right: 5px #3d3d3d solid;
+    border-left: 5px var(--shadow) solid;
+    border-right: 5px var(--shadow) solid;
 }
 
 
