@@ -4,12 +4,12 @@ var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
 var endBtn = document.getElementById('end');
 var choicesContainer = document.getElementById('choices-container');
-var screenText = document.getElementById('storyText');
+var screenText = document.getElementById('story-text');
 var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var inventory = new Array();
-var speed = 25;
+var speed = 10;
 var page = -1;
 var dead = false;
 

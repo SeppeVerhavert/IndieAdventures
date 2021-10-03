@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
 
 /* _____ COLOUR SCHEME _____ */
 
@@ -25,8 +29,6 @@ body {
     background: -o-linear-gradient(var(--color1), var(--color2));
     background: -moz-linear-gradient(var(--color1), var(--color2));
     background: linear-gradient(var(--color1), var(--color2));
-    margin-bottom: 5%;
-    padding-bottom: 5%;
     font-family: 'Press Start 2P', cursive;
     color: var(--color4);
 }
@@ -50,7 +52,7 @@ body {
 
 .golden-menu div:not(.heart-container) {
     max-height: 30px;
-    border: 3px solid #fff;
+    border: 3px solid var(--color4);
 }
 
 .golden-menu img {
@@ -74,4 +76,39 @@ body {
 .img-container img {
     width: 100%;
     max-height: 32vh;
+}
+
+.text-container {
+    max-height: 50vh;
+    overflow: scroll;
+    margin: 2vh 3vw;
+}
+
+.textfield p {
+    font-size: small;
+}
+
+.textfield p::first-letter {
+    font-size: 20px;
+    color: var(--color3);
+}
+
+.button-container button {
+    width: 90%;
+    position: absolute;
+    bottom: 3vh;
+    font-size: large;
+    color: var(--color4);
+    background-color: unset;
+    border: 3px solid var(--color3);
+    margin-left: 5%;
+    padding: 2vh;
+}
+
+.button-container button:active,
+.button-container button:focus,
+.button-container button:hover {
+    border: 3px solid var(--color4);
+    color: var(--color3);
+    text-decoration: underline;
 }
