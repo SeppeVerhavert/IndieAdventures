@@ -14,25 +14,38 @@
 
 <body>
     <div class="app">
-        <div class="button-container">
-            <button type="button" class="btn header health">HP: 10</button>
-            <button type="button" class="btn header speed" onclick=changeSpeed()>NORMAL</button>
+        <div class="menu-container">
+            <div class="golden-menu">
+                <div class="white-border">
+                    <div class="heart-container">
+                        <img id="heart-1" src="https://i.imgur.com/IKJQYAv.png">
+                        <img id="heart-2" src="https://i.imgur.com/ilUAnwO.png">
+                    </div>
+                    <p>SIR INDIE</p>
+                </div>
+                <div>
+                    <img id="hamburger-icon" src="https://i.imgur.com/zdB5Ha7.png">
+                </div>
+            </div>
+            <!-- <button type="button" class="btn header health">HP: 10</button>
+            <button type="button" class="btn header speed" onclick=changeSpeed()>NORMAL</button> -->
         </div>
-        <div class="container">
-            <img id="img" src="https://i.imgur.com/spfC3a8.png">
+        <div class="img-container">
+            <!-- <img id="img" src="https://i.imgur.com/spfC3a8.png"> -->
+        </div>
+        <div class="text-container">
             <div class="textfield">
-                <p id="storyText"></p>
+                <!-- <p id="storyText"></p>
                 <div id="choices-container">
                     <p class="choice" onclick=render(0)></p>
                     <p class="choice" onclick=render(1)></p>
                     <p class="choice" onclick=render(2)></p>
                 </div>
+                <button type="button" id="start" class="btn btn-secondary invisible" onclick=render()>PRESS START</button>
+                <button type="button" id="end" class="btn btn-secondary invisible" onclick=restart()>RESTART</button> -->
             </div>
-            <button type="button" id="start" class="btn btn-secondary invisible" onclick=render()>PRESS START</button>
-            <button type="button" id="end" class="btn btn-secondary invisible" onclick=restart()>RESTART</button>
         </div>
-    </div>
-    <script src="assets/javascript/script.js"></script>
+        <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>
