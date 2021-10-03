@@ -70,3 +70,7 @@ body {
 .white-border div {
     padding-right: 16px;
 }
+
+.img-container img {
+    width: 100%;
+}
