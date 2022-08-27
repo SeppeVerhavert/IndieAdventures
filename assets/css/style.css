@@ -34,6 +34,9 @@ html {
     display: none;
 }
 
+
+/* _____ BUTTONS _____ */
+
 .btn.speed {
     margin: 0vh 3vw 2vh 3vw;
     padding: 1vh 2vw;
@@ -41,6 +44,43 @@ html {
     color: var(--color4);
     width: -webkit-fill-available;
     border-radius: 0px;
+}
+
+.button-container button {
+    position: absolute;
+    bottom: 3vh;
+    font-size: large;
+    color: var(--color4);
+    background-color: unset;
+    border: 3px solid var(--color3);
+    padding: 1vh 2vw;
+    width: 94vw;
+}
+
+.button-container button:active,
+.button-container button:focus,
+.button-container button:hover {
+    border: 3px solid var(--color4);
+    color: var(--color3);
+    text-decoration: underline;
+}
+
+
+/* _____ TEXT CONTAINER _____ */
+
+.text-container {
+    max-height: 50vh;
+    overflow: scroll;
+    margin: 2vh 3vw;
+}
+
+.textfield p {
+    font-size: small;
+}
+
+.textfield p::first-letter {
+    font-size: 20px;
+    color: var(--color3);
 }
 
 
@@ -97,39 +137,4 @@ body {
 .img-container img {
     width: 100%;
     max-height: 32vh;
-}
-
-.text-container {
-    max-height: 50vh;
-    overflow: scroll;
-    margin: 2vh 3vw;
-}
-
-.textfield p {
-    font-size: small;
-}
-
-.textfield p::first-letter {
-    font-size: 20px;
-    color: var(--color3);
-}
-
-.button-container button {
-    width: 90%;
-    position: absolute;
-    bottom: 3vh;
-    font-size: large;
-    color: var(--color4);
-    background-color: unset;
-    border: 3px solid var(--color3);
-    margin-left: 5%;
-    padding: 2vh;
-}
-
-.button-container button:active,
-.button-container button:focus,
-.button-container button:hover {
-    border: 3px solid var(--color4);
-    color: var(--color3);
-    text-decoration: underline;
 }
