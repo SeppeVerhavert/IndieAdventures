@@ -8,6 +8,7 @@ var screenText = document.getElementById('story-text');
 var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
+var menu = document.getElementsByClassName('menu')[0];
 var inventory = new Array();
 var speed = 10;
 var page = -1;
@@ -175,5 +176,15 @@ function changeSpeed() {
         speedBtn.classList.add('slow');
         speedBtn.innerText = 'SLOW';
         speed = 50;
+    }
+}
+
+//  ------------------ OPEN MENU  ------------------  //
+
+function openMenu() {
+    if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden");
+    } else {
+        menu.classList.add("hidden");
     }
 }
