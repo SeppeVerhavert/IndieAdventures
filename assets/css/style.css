@@ -21,6 +21,29 @@ html {
 }
 
 
+/* _____ MENU _____ */
+
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color2);
+}
+
+.hidden {
+    display: none;
+}
+
+.btn.speed {
+    margin: 0vh 3vw 2vh 3vw;
+    padding: 1vh 2vw;
+    border: 3px solid var(--color3);
+    color: var(--color4);
+    width: -webkit-fill-available;
+    border-radius: 0px;
+}
+
+
 /* _____ BACKGROUND _____ */
 
 body {
@@ -59,10 +82,6 @@ body {
     max-height: 24px;
 }
 
-#heart-2 {
-    margin-left: -16px;
-}
-
 .white-border {
     width: 75%;
     display: flex;
@@ -71,6 +90,8 @@ body {
 
 .white-border div {
     padding-right: 16px;
+    align-self: end;
+    display: flex;
 }
 
 .img-container img {

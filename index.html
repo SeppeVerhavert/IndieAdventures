@@ -18,16 +18,19 @@
             <div class="golden-menu">
                 <div class="white-border">
                     <div class="heart-container">
-                        <img id="heart-1" src="https://i.imgur.com/IKJQYAv.png">
-                        <img id="heart-2" src="https://i.imgur.com/ilUAnwO.png">
+                        <img id="heart" src="https://i.imgur.com/IKJQYAv.png">
+                        <img id="shield" src="https://i.imgur.com/pvRiO8X.png">
                     </div>
                     <p>SIR INDIE</p>
                 </div>
-                <div>
+                <div onclick=openMenu()>
                     <img id="hamburger-icon" src="https://i.imgur.com/zdB5Ha7.png">
                 </div>
             </div>
-            <button type="button" class="btn header speed" style="display:none;" onclick=changeSpeed()>NORMAL</button>
+
+        </div>
+        <div class="menu hidden">
+            <button type="button" class="btn header speed" onclick=changeSpeed()>TEXTSPEED: NORMAL</button>
         </div>
         <div class="img-container">
             <img id="img" src="https://i.imgur.com/spfC3a8.png">
