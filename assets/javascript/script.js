@@ -10,7 +10,7 @@ var speedBtn = document.getElementsByClassName('speed')[0];
 var healthBtn = document.getElementsByClassName('health')[0];
 var menu = document.getElementsByClassName('menu')[0];
 var inventory = new Array();
-var speed = 10;
+var speed = 25;
 var page = -1;
 var dead = false;
 
@@ -161,20 +161,20 @@ function changeSpeed() {
     if (speed === 50) {
         speedBtn.classList.remove('slow');
         speedBtn.classList.add('instant');
-        speedBtn.innerText = 'INSTANT';
+        speedBtn.innerText = 'TEXTSPEED: INSTANT';
         speed = 0;
     } else if (speed === 0) {
         speedBtn.classList.remove('instant');
         speedBtn.classList.add('fast');
-        speedBtn.innerText = 'FAST';
+        speedBtn.innerText = 'TEXTSPEED: FAST';
         speed = 10;
     } else if (speed === 10) {
         speedBtn.classList.remove('fast');
-        speedBtn.innerText = 'NORMAL';
+        speedBtn.innerText = 'TEXTSPEED: NORMAL';
         speed = 25;
     } else if (speed === 25) {
         speedBtn.classList.add('slow');
-        speedBtn.innerText = 'SLOW';
+        speedBtn.innerText = 'TEXTSPEED: SLOW';
         speed = 50;
     }
 }
