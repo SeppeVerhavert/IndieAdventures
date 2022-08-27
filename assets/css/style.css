@@ -27,7 +27,7 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--color2);
+    background: var(--color1);
 }
 
 .hidden {
@@ -55,6 +55,7 @@ html {
     border: 3px solid var(--color3);
     padding: 1vh 2vw;
     width: 94vw;
+    margin: 2vh 3vw 0;
 }
 
 .button-container button:active,
@@ -88,10 +89,6 @@ html {
 
 body {
     background: var(--color1);
-    background: -webkit-linear-gradient(var(--color1), var(--color2));
-    background: -o-linear-gradient(var(--color1), var(--color2));
-    background: -moz-linear-gradient(var(--color1), var(--color2));
-    background: linear-gradient(var(--color1), var(--color2));
     font-family: 'Press Start 2P', cursive;
     color: var(--color4);
 }
