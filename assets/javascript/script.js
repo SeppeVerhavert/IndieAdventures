@@ -7,7 +7,8 @@ var choicesContainer = document.getElementById('choices-container');
 var screenText = document.getElementById('story-text');
 var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
-var healthBtn = document.getElementsByClassName('health')[0];
+var shieldIcon = document.getElementsByClassName('shield')[0];
+var healthIcon = document.getElementsByClassName('heart')[0];
 var menu = document.getElementsByClassName('menu')[0];
 var inventory = new Array();
 var speed = 25;
@@ -38,8 +39,8 @@ async function render(choice) {
     }
     page++;
     checkhealth();
-    startBtn.classList.add('invisible');
-    choicesContainer.classList.add('invisible');
+    startBtn.classList.add('hidden');
+    choicesContainer.classList.add('hidden');
     img.src = data.pages[page].image;
     typeWriter(data.pages[page].text);
 }
@@ -76,12 +77,12 @@ function typeWriter(sentence) {
 function showOptions() {
     if (page === 0) {
         fadein = setTimeout(function() {
-            startBtn.classList.remove('invisible')
+            startBtn.classList.remove('hidden')
         }, 500);
         setTimeout(function() { checkOptions() }, 500);
     } else if (dead === true) {
         fadein = setTimeout(function() {
-            endBtn.classList.remove('invisible')
+            endBtn.classList.remove('hidden')
         }, 500);
     } else {
         setTimeout(function() { checkOptions() }, 500);
@@ -97,14 +98,14 @@ function checkOptions() {
             choices[i].innerHTML = "&#9654; " + data.pages[page].options[0][i][0].text;
         }
     }
-    choicesContainer.classList.remove('invisible');
+    choicesContainer.classList.remove('hidden');
 }
 
 //  ------------------ CHECK HEALTH  ------------------  //
 
 function checkhealth() {
     if (data.pages[page].requirement === "fullhealth") {
-        if (parseInt(healthBtn.innerText.slice(4)) !== 10) {
+        if (shieldIcon.classList.contains('full')) {
             page++;
         }
         takedamage();
@@ -119,13 +120,14 @@ function checkhealth() {
 //  ------------------ TAKE DAMAGE  ------------------  //
 
 function takedamage() {
-    if (parseInt(healthBtn.innerText.slice(4)) === 10) {
-        healthBtn.classList.add('damaged');
-    } else if (parseInt(healthBtn.innerText.slice(4)) === 5) {
-        healthBtn.classList.add('dead');
+    if (shieldIcon.classList.contains('full')) {
+        shieldIcon.classList.remove('full');
+        shieldIcon.src = 'https://i.imgur.com/svr1KjP.png';
+    } else if (healthIcon.classList.contains('full')) {
+        healthIcon.classList.remove('full');
+        healthIcon.src = 'https://i.imgur.com/ilUAnwO.png';
         gameOver();
     }
-    healthBtn.innerText = 'HP: ' + parseInt(healthBtn.innerText.slice(4) - 5);
 }
 
 
