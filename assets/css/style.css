@@ -72,7 +72,7 @@ html {
 /* _____ TEXT CONTAINER _____ */
 
 .text-container {
-    max-height: 50vh;
+    max-height: 45vh;
     overflow: scroll;
     margin: 2vh 3vw;
 }
@@ -86,13 +86,8 @@ html {
     color: var(--color3);
 }
 
-p#story-text {
-    margin-bottom: 50px;
-}
-
 #choices-container {
-    margin-bottom: 3vh;
-    padding-bottom: 3vh;
+    margin: 2vh 3vw;
 }
 
 

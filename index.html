@@ -38,14 +38,15 @@
         <div class="text-container">
             <div class="textfield">
                 <p id="story-text"></p>
-                <div id="choices-container">
-                    <p class="choice" onclick=render(0)></p>
-                    <p class="choice" onclick=render(1)></p>
-                    <p class="choice" onclick=render(2)></p>
-                </div>
+
             </div>
         </div>
         <div class="button-container">
+            <div id="choices-container">
+                <p class="choice" onclick=render(0)></p>
+                <p class="choice" onclick=render(1)></p>
+                <p class="choice" onclick=render(2)></p>
+            </div>
             <button id="start" onclick=render()>START</button>
             <button id="end" class="hidden" onclick=restart()>RESTART</button>
         </div>
