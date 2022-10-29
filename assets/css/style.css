@@ -74,7 +74,7 @@ html {
 .text-container {
     max-height: 45vh;
     overflow: scroll;
-    margin: 2vh 3vw;
+    margin: 2vh 3vw 0;
 }
 
 .textfield p {
@@ -87,7 +87,18 @@ html {
 }
 
 #choices-container {
-    margin: 2vh 3vw;
+    margin: 1vh 3vw 0;
+    border-top: 1px solid #c79127;
+    padding-top: 5px;
+}
+
+.choice::first-letter {
+    color: #c79127;
+}
+
+p#story-text,
+.choice {
+    margin: 0;
 }
 
 
@@ -141,5 +152,5 @@ body {
 
 .img-container img {
     width: 100%;
-    max-height: 32vh;
+    max-height: 30vh;
 }
