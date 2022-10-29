@@ -49,17 +49,17 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Choose the crossbow,<br>weapon of Hunters",
+                    "text": "The crossbow",
                     "item": "Crossbow",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Choose the staff,<br>weapon of Mages",
+                    "text": "The staff",
                     "item": "Staff",
                     "skip": ""
                 }],
                 "2": [{
-                    "text": "Choose the sword,<br>weapon of Champions",
+                    "text": "The sword",
                     "item": "Sword",
                     "skip": ""
                 }]
@@ -71,17 +71,17 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Use the forest, you have no fear of wild beasts!",
+                    "text": "Forest",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Use the traders route, you are not easily surprised!",
+                    "text": "Traders route",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Use the river, you are friend of spirits & nature!",
+                    "text": "River",
                     "item": "",
                     "skip": "4"
                 }]
@@ -247,17 +247,17 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Climb to the tail, a superiour position will win this fight.",
+                    "text": "Climb the tail",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Rush the body, better to strike fast & hard.",
+                    "text": "Rush the body",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "Sneak to the head, hit the beast where it hurts.",
+                    "text": "Sneak to the head",
                     "item": "",
                     "skip": "4"
                 }]
@@ -401,17 +401,17 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "I shall be known as the Trickster, time for foul play!",
+                    "text": "Time for a trick!",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "I shall be known as the Wise, time for a spell!",
+                    "text": "Time for a spell!",
                     "item": "",
                     "skip": "2"
                 }],
                 "2": [{
-                    "text": "I shall be known as the Brave, time to stand my ground!",
+                    "text": "Stand thy ground!",
                     "item": "",
                     "skip": "4"
                 }]
@@ -555,12 +555,12 @@
             "requirement": "",
             "options": [{
                 "0": [{
-                    "text": "Sure, they don't call me Sir Indie the Brave for nothing!",
+                    "text": "Yes of course!",
                     "item": "",
                     "skip": ""
                 }],
                 "1": [{
-                    "text": "Get out the way you came, while you still can!",
+                    "text": "Get out while you can!",
                     "item": "",
                     "skip": "1"
                 }],
