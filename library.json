@@ -1,663 +1,904 @@
 {
-    "pages": [{
-            "image": "https://i.imgur.com/spfC3a8.png",
+    "pages": [
+        {
+            "image": "assets\\img\\slide0.png",
             "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you decide how you want to approach the problems you face. Choose carefully and get the perfect score.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/wTjIBZB.png",
             "text": "It all happened overnight. The shouting from outside roused you from your sleep. Jumping out of bed you looked out of the window and saw your village being consumed by a fiery inferno as if you had woken up in hell. The heat struck you in the face and smoke was already filling your room, stinging in your eyes.<br><br>People were screaming, everything was on fire and amidst it all stood a giant creature causing death and destruction everywhere. Then you noticed the dragon was climbing the castle and you realized that your lord and his family were in danger!<br><br>While you put on some pants, the creature let out a terrifying roar and a rumbling shook the ground and houses. Again you looked outside, just in time to see the monster grabbing something from the now collapsing tower and taking flight.<br><br>Then the ground opened up beneath your feet and you were swallowed by darkness.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/uViOX79.png",
             "text": "Some time later you wake up buried under rubble and ash. With maximum effort, you are able to get out of the stones and broken planks that used to be your home. However, one wall still stands straight as if in defiance of what had happened to your village.<br><br>As you stand in front of the wall watching your trusty weapons you decide that you would right the wrong that was done to your people. You would only need to decide what weapon you would be using for this quest...",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "The crossbow",
-                    "item": "Crossbow",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "The staff",
-                    "item": "Staff",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "The sword",
-                    "item": "Sword",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "The crossbow",
+                            "item": "Crossbow",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "The staff",
+                            "item": "Staff",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "The sword",
+                            "item": "Sword",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/zzPKj0w.png",
             "text": "With your trusty weapon of choice you now feel ready to embark on your epic quest! Of course, you would first need to find the wretched creature.<br><hr>From the surviving villagers you heard that the dragon kidnapped the princess and flew to the mountains east of the village. Thus you would not only be killing a formidable foe but also get the opportunity to rescue a fair maiden!<br><hr>You also learned that 3 possible roads could lead there.<br><hr>One would travel through the forest, where dangerous creatures are rumored to be stalking through the dense brush.<br><hr>Another road would follow the traders' route through the fields, where one would have to be careful of gangs of bandits and thugs lying in ambush.<br><hr>The last option would be to follow the river where spirits of nature are abundant and best not disturbed.<br><br>Consider carefully the route to travel...",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Forest",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "Traders route",
-                    "item": "",
-                    "skip": "2"
-                }],
-                "2": [{
-                    "text": "River",
-                    "item": "",
-                    "skip": "4"
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Forest",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "Traders route",
+                            "item": "",
+                            "skip": "2"
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "River",
+                            "item": "",
+                            "skip": "4"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Having chosen your weapon and route you set out bravely in search of the dragon. Before long you arrive at the edge of the forest. The thick brush hinders your movement and the sparse sunlight shining through the canopy makes shadows dance on the forest floor. Traveling deeper into the forest makes you have more difficulty following the road and more than once you have to retrace your steps. During one of these moments, you are investigating the ground below and you see a single paw print of a large forest predator. <br><hr>You then notice that the forest has gone deadly quiet and while you are readying your weapon a dark shape jumps out of the brush. A loud roar rumbles through the forest, transforming into an angry hissing. After a few seconds that changes to silence and the forest becomes quiet once more. Panting, you praise your Luck, as you were able to pull out your sword just in time to see the beast jumping out of the thicket and piercing it on your blade.<br><hr>You can then clearly see the road in front of you, where the beast has created a hole in the brush when it jumped out. You stride forward and find the bones of a less lucky adventurer nearby, still grasping its shield. Seeing as the beast already got them, they probably don't have a need for the shield anymore. You manage to break it free from the bony fingers and take it along on your quest.",
             "requirement": "Sword",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "Shield",
-                    "skip": "5"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "Shield",
+                            "skip": "5"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Having chosen your weapon and route you set out bravely in search of the dragon. Before long you arrive at the edge of the forest. The thick brush hinders your movement and the sparse sunlight shining through the canopy makes shadows dance on the forest floor. Traveling deeper into the forest makes you have more difficulty following the road and more than once you have to retrace your steps. During one of these moments, you are investigating the ground below and you see a single paw print of a large forest predator. <br><hr>You then notice that the forest has gone deadly quiet and while you are readying your weapon a dark shape jumps out of the brush. A loud roar rumbles through the forest, and the beast jumps on top of you swiping away at you with its claws. You then manage to pull your weapon free and strike the beast. You hear a pained shriek and the creature then flees, leaving you alone and bleeding.<br><hr>You decide it best not to go after the wounded beast because you both are hurt pretty bad. After a while you manage to find another path instead, leading you to the edge of the forest.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "4"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "4"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You follow the common road and pass by the occasional farmhouse. The sun shines and it's a beautiful day. Merrily you continue your travels. As the hours go by the landscape around you changes from farms & meadows to hills.<br><hr>Suddenly a bright flash catches your attention at the top of the hill. You stop walking and look in the direction you have seen the flash. However, there seems to be nothing there, except for the large white rocks that can be found here in abundance. You know this region is rumored to be bandit ambush territory, so better safe than sorry. Taking your crossbow you fire a shot as a precaution. As you release the mechanism and the bolt disappears between the stones and you hear a sharp cry of pain. The rocks appear to have been an illusion, which quickly vanishes as you see 2 bandits running away, one with the bolt in his shoulder.<br><hr>You decide to climb up the hill to confirm that they have gone. And indeed, there appears to be no trace of the 2 figures anymore. After doing a quick search you find a lasso that the hurt bandit must have left behind. They won't be needing it anymore, so you decide to take it along on your journey, might as well come in handy.",
             "requirement": "Crossbow",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "Lasso",
-                    "skip": "3"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "Lasso",
+                            "skip": "3"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You follow the common road and pass by the occasional farmhouse. The sun shines and it's a beautiful day. Merrily you continue your travels. As the hours go by the landscape around you changes from farms & meadows to hills.<br><hr>Suddenly a bright flash catches your attention at the top of the hill. You stop walking and look in the direction you have seen the flash. However, there seems to be nothing there, except for the large white rocks that can be found here in abundance. You know this region is rumored to be bandit ambush territory, so better proceed with caution.<br><hr>As you are getting closer to the top you suddenly hear the sound of a crossbow firing and feel a sharp pain as the bolt scrapes your left shoulder. A lesser man or woman might have fled, but you start running to face your yet unseen foe. Upon brandishing your weapons you can see 2 bandits running away from you. The rocks appear to have been an illusion, which quickly vanishes.<br><hr>You quickly get to the top of the hill and before you you can see more hills with the same white large rocks. You decide it won't be worth to try to find these 2 bandits as they have the advantage of superior range. You return to the road and continue your journey to the dragon's hideout.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "2"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "2"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You find the small stream at the edge of town, which you know becomes the roaring river dividing the forests and the hillside. As you keep on venturing further you notice the first signs of nature spirits living nearby.<br><hr>Gradually the sound of the rushing river increases and very soon you can't hear anything else anymore. Magical lights float over the water and small shapes can be seen swimming below. You then come upon a few boulders lying in the river which you can use to traverse the rough waters. You ready a spell and call forth the spirit of the passing, calming it until you have made the crossing.<br><hr>At your command the river transforms into a tranquil tributary, allowing you to jump from one rock to the other. You find yourself already halfway when you see a small amulet floating gently towards you. You pick it up and decide that this might be a gift from the spirit of the river, so you put it around your neck.<br><hr>Without any trouble you make it across and thank the river for your gentle passing. Your words have not all been spoken yet or the waters have gone back to their wild churning from before. You continue your journey in good spirits.",
             "requirement": "Staff",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "Amulet",
-                    "skip": "1"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "Amulet",
+                            "skip": "1"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Having chosen your weapon and route you set out bravely in search of the dragon. You find the small stream at the edge of town, which you know becomes the roaring river dividing the forests and the hillside. As you keep on venturing further you notice the first signs of nature spirits living nearby.<br><hr>Gradually the sound of the rushing river increases and very soon you can't hear anything else anymore. Magical lights float over the water and small shapes can be seen swimming below. You then come upon a few boulders lying in the river which you can use to traverse the rough waters. Your superior athleticism allows you to jump from one rock to the other and find yourself already halfway when you see some magical lights playing by your feet.<br><hr>However when you make the next jump, the playful spirits jump along, bumping into you and causing you to lose your balance. The world shifts and you fall into the cold water, where the powerful flow drags you along, thrashing you about between the boulders. You hit your head against one of these rocks and a sharp ringing fills your ears. The next moment you get pushed onto another boulder and you barely have the strength to climb on top.<br><hr>Still a bit dizzy from the blow you catch your breath and manage to make it to the other side. Bruised and soaked you venture forth to the dragon's den.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "After a half-day of traveling the land around becomes more barren and a hint of sulfur can be smelled in the air. This must mean that you are getting closer to the wretched creature's lair. After a short while, you find yourself standing at the foot of the mountain.<br><hr>You search the mountain for any signs of a dragon and your trained adventure eyes spot a few large claw marks in the stones to your east. Climbing up you silently sneak past the abundant rocks and take a look. A large gloomy cave entrance lies ahead of you, a fetid fog obscures the corridor from view. You hold your breath as the smell of sulfur gets overwhelmingly strong here.<br><hr>This must be the home of the dragon, the target of your quest and your sworn enemy since yesterday evening. You have the feeling that there was something else you were supposed to do here as well, but you don't remember and decide to focus on the dragon and the fight that lies ahead.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "continue",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "continue",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "With a piece of cloth and some water, you improvise a breathing mask. Taking your last breath of fresh air (at least for a while) you draw your weapon and stride boldly forward into the gaping maw of the dragon's lair.<br><hr>The heavy noxious fumes sting your eyes and make it difficult to breathe. A dim orange glow lights the way ahead. The temperature is rising unwaveringly while you approach this light. With your back against the wall, you bravely peek around the corner.<br><hr>A large cavern stretches out before you, piles of glittering treasure lying everywhere. The heat is almost unbearable here and you soon see the reason why. Bubbling pools of lava are filling the place with their searing heat, occasionally spewing droplets of the red-hot liquid in the air when one of the larger bubbles burst. You make a note to yourself to stay away from these.<br><hr>Near the center of the room you can see a circle of cyclopean pillars, some reaching to the ceiling while others have crumbled. On the remains of multiple of these perished cylinders, you can see the huge form of the dragon! You freeze momentarily but sigh in relief when you see the monstrosity is sleeping amidst its riches.<br><hr>Now would be a perfect time to strike, if you can decide on the best way to slay this serpent...",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Climb the tail",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "Rush the body",
-                    "item": "",
-                    "skip": "2"
-                }],
-                "2": [{
-                    "text": "Sneak to the head",
-                    "item": "",
-                    "skip": "4"
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Climb the tail",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "Rush the body",
+                            "item": "",
+                            "skip": "2"
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "Sneak to the head",
+                            "item": "",
+                            "skip": "4"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "With your staff and arcane prowess, you don't have to climb to get to a superior position. In a hushed voice, you mutter a spell of flying and silently float to the tail where you can get a good look at the creature.<br><hr>Noticing an old scar at the back of the dragon, you decide it would be best to focus on this already weakened spot in its though scaled armor. Just as you are ready to release your spell the dragon rolls over in its sleep, causing your acid blast to miss it's mark and hit a healthy scale instead.<br><hr>For a brief moment the whole cavern goes quiet and only a soft sizzling of the acid can be heard. Then an eye as big as your body flashes open and stares straight at you!",
             "requirement": "Staff",
-            "options": [{
-                "0": [{
-                    "text": "Contine",
-                    "item": "",
-                    "skip": "5"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Contine",
+                            "item": "",
+                            "skip": "5"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "As silently as possible with your armor, you start climbing the pillar where the tail has been circled around. The sharp dragon claws have made numerous foot and handholds for you, so the climb is relatively easy.<br><hr>Making sure not to touch the long draconic tail, you quickly arrive at the top. You pull yourself over the edge and jump up, ready to make your surprise attack! However, there seems to be a minor issue as the dragon's body is no longer there.<br><hr>Then you hear a low hissing behind you and with lightning reflexes, you turn around. Just in time to see one dragon claw as big as a horse coming straight at you. There is no time to dodge and the claw hits you full on. The force of the blow sweeps you off the pillar and dazed you fall between the coins and treasures.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "continue",
-                    "item": "",
-                    "skip": "4"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "continue",
+                            "item": "",
+                            "skip": "4"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Now is not the time for thinking, you could lose this edge if you don't use it right now. Quick as lightning you dash towards the body and the soft underbelly of the gigantic monstrosity.<br><hr>Sword at the ready, you choose a spot between 2 scales. But then you suddenly see its muscles starting to move as the creature has likely heard your approach. With an almost inhuman effort, you jump the last few feet and manage to connect your blade with the rising body of the dragon.<br><hr>Your sword sinks in deep and an agonized wail fills the cavern as you draw blood from the creature. The dragon then beats its wings, the pressure forcing you to release your sword still stuck in its body.",
             "requirement": "Sword",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "3"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "3"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "As you are rushing towards the dragon's torso you realize that you have no way of penetrating the thick scales up close. You decide on using a ranged attack instead while dashing over the coins and treasure laying about.<br><hr>This proved to be not the best of tactics as this appeared to be rather difficult. The clattering of coins and gems must have alerted the creature and you could see that it was getting up. You might have missed your opportunity, but you released your attack anyway.<br><hr>Harmlessly it bounced of the thick dragon scales, now that the soft underbelly of the dragon was no longer visible. From the edge of your vision, you could see something approaching rapidly and the next moment the dragon's tail lashed out at you, knocking you over.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "2"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "2"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Like a true master of shadows, you sneakily move between the stolen artifacts and golden weapons. Making sure to move in synch with the breathing of the colossal creature. In between breaths, you wait and plot your next few paces inching closer and closer.<br><hr>30 tense minutes later you arrive in front of the head. You can see several teeth as big as you protruding between the dragon's scaly lips. Suddenly the creature lets out a deep sigh and its breath washes over you. Disgusted by the foul air and the dragon's audacity to blow it on a hero, you draw your bow and aim for the eye.<br><hr>Shouting: 'Wake up, big lizard!', the eyes of the dragon open in an instant and focus on you. This is the perfect moment, you fire your arrow striking its target. Unfortunately for you, dragons have an invisible scale covering their eyes, but the attack does manage to make a large scratch in the center.",
             "requirement": "Crossbow",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "1"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "1"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Like a true master of shadows, you sneakily move between the stolen artifacts and golden weapons. Making sure to move in synch with the breathing of the colossal creature. In between breaths, you wait and plot your next few paces inching closer and closer.<br><hr>After 30 tense minutes, you arrive in front of the head. You can see several teeth as big as you protruding between the dragon's scaly lips. Suddenly the creature lets out a deep sigh and its breath washes over you. Disgusted by the foul air and the dragon's audacity to blow it on a hero, you draw your weapon.<br><hr>You realize you are still too far off to do any harm and you start moving closer. However, the next moment you see the dragon taking a few big sniffs, and its eyes shoot open! You missed your moment and a large claw strikes your body, drawing blood on several deep cuts.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "The dragon then rears up and lets out a ceiling-shaking roar. Dust and rocks come falling down and you see the dragon's open maw filling with a light coming from its throat. It must mean to use its fiery breath on you!<br><hr>Luckily this gives you a short moment to think and your head becomes clear. Possible plans start to come to you and you decide on the best way forward in this epic fight. How would you like the bards to sing about you in your legendary battle?",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Time for a trick!",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "Time for a spell!",
-                    "item": "",
-                    "skip": "2"
-                }],
-                "2": [{
-                    "text": "Stand thy ground!",
-                    "item": "",
-                    "skip": "4"
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Time for a trick!",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "Time for a spell!",
+                            "item": "",
+                            "skip": "2"
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "Stand thy ground!",
+                            "item": "",
+                            "skip": "4"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "You grab your lasso and with one smooth throw, you manage to get it around the dragon's open maw. This trick will be all or nothing, as the dragon won't be hindered long when you tighten the loop. An eternal second of waiting goes by until you finally see the flames at the back of the monster's throat.<br><hr>With all your might you jank the lasso forcing the mighty creature's jaws to close. You can see smoke coming from its nostrils and then suddenly the lasso snaps. The big lizard rears up, obviously pained by the flames that could not escape its mouth, and lets out a sharp cry of agony.",
             "requirement": "Lasso",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "5"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "5"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "You might consider yourself crafty, but you appear to be out of tricks at this moment. If you would only have some rope, you might have been able to do something else here. Alas, the time for thinking has passed and the dragon then starts breathing fire. You bravely jump out of the way, but some of the flames manage to connect with you regarldess.<br><hr>A searing pain comes from your left arm, but you can still feel the terrible heat coming from behind. You jump again, dashing through the treasures. Unfortunately, your shoe gets stuck behind a crown with ridiculous ornaments, and with a hard smack, you land on the pile of gold. You close your eyes, accepting that this might be the end.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "4"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "4"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "You grab your magical amulet given to you by the spirit of the river. Calling upon its protection, you draw arcane runes into the air with your staff. A cold blue light fills the cavern and then a tendril of water erupts from the amulet and shoots for the dragon. Upon connecting, it wraps itself around, its head now enveloped by a sphere of water.<br><hr>The flames in the monster's throat are instantly doused. Deprived of its eyesight the scaled behemoth thrashes around, clawing at the water. The blue light then fades from the amulet. And the next moment the water vanishes, leaving only the dragon, who is now looking at you with a renewed anger.",
             "requirement": "Amulet",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "3"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "3"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Drawing arcane symbols with your fingers through the air you try to summon the power of water to help you withstand this fiend's fire. A thin sheet of water sizzles into existence and stands between you and the dragon, spattering a few droplets of water on the hot stones. You realize that your magic might not be enough to battle this dragon alone.<br><hr>If only you would have access to a more powerful artifact or the help of a magical creature, things would have been very different now. A stream of fire then comes racing towards you and while the sheet of water protects you from the worst damage, the searing heat still burns most of your skin, leaving you in searing pain. You close your eyes, accepting that this might be the end.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "2"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "2"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "You grab your shield and duck down, holding it in front of you as cover. This might not have been the most clever plan, you think in hindsight, but it is the one you are going with for now. A stream of fire then comes racing towards you.<br><hr>And rushes past, as it was aimed at you before you ducked. The shield comes in handy by protecting you from the worst heat, but grows considerably hotter itself until you almost can't hold it anymore. As the flames stop you immediately throw it at the dragon's head and strike it right in the eye!",
             "requirement": "Shield",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "1"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "1"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Of course, you did not mean that literally, as if you could stay in the same space when a dragon was breathing fire all over you, right?. It was more like a figuratively stand your ground, meaning that you would fight back. You nod in agreement with yourself and dash towards the scaled giant.<br><hr>A stream of flames then hits the spot where you had been standing only one second ago, melting the treasure into a big golden puddle. With a battle cry on your lips, you boldly run further until a dragon talon strikes you from the side, knocking you over. You close your eyes, accepting that this might be the end.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "As the dragon rears up again to its full size, it lets out another earthshattering roar. More of the ceiling starts to come down and you can see one of the pillars fall down. A cloud of hot dust then rushes through the cave and blinded by rage, dust and the falling rubble the red titan then starts clawing at everything.<br><hr>You then notice that all the remaining cylinders are shaking and one by one they start collapsing. A white cloud of dust falls over the cavern and you hear the cries of the dragon coming from its midst. Suddenly, you see a door that you have not noticed before at the back of the cave. However, this room is about to collapse so you must be quick. Do you risk it?",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Yes of course!",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "Get out while you can!",
-                    "item": "",
-                    "skip": "1"
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Yes of course!",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "Get out while you can!",
+                            "item": "",
+                            "skip": "1"
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "Hoping for treasure or even a different way out you rush towards the door, but this one is shut tight. Rocks the size of your head are falling down from the ceiling and one hits the side of your head. The room darkens for a second, but you manage to shrug it off. <br><hr>You ram your shoulder against the wooden door and the dry wood breaks under your might. In front of you stands a figure chained to the wall. You recognize her as the princess! Obviously, you remembered to save the princess, brave knights always remember to save the princess, and that's why you are here.<br><hr>However, the cavern seems to be collapsing rapidly now as you manage to set the princess free. You hear the noise of loudly bursting stone and for the second time today, everything goes dark.",
             "requirement": "fullhealth",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "1"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "1"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "You decide against it and run back the way you came. Falling debris is now all around. Somehow you dodge through the splashing droplets of lava. Dust and smoke are now blinding you and more than you can see you remember the way back.<br><hr>Suddenly you feel a fresh draft of air and you realize you must be close to the exit. With renewed vigor, you start running, and just as you appear outside of the cavern, the mountain collapses in behind you, probably killing everything that was still inside.",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "Continue",
-                    "item": "",
-                    "skip": "1"
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "Continue",
+                            "item": "",
+                            "skip": "1"
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "When the dust settles, you wake up looking up at the blue sky. Next to you lies the princess, holding a magical amulet of sorts. You look around and see the mountain is now utterly destroyed. Sadly, there is no track of the cavern and any of its treasures. But you might come back in the future to confirm this. For now, however, the last part of your quest still needs to be done, safely delivering the princess back to the village. <br><hr>As you are traveling home, the princess expresses her thanks. She also explains that it was her amulet that got you and her safely to the ground. A few hours later, you arrive at your destination and you can see people waving and cheering at the edge of the mostly rebuilt town, together with the king and queen. <br><hr>The princess falls into their loving arms and you get rewarded graciously (with only 100 golden coins!?), but you accept the very generous gift from your majesty. During the feast that follows, you start making plans to go back to the mountain to look for any of the remaining treasure.<br><br><hr>THE END",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
             "text": "When the dust settles, you look up at the blue sky. Rubble and stones are all that remains of the now destroyed mountain. Sadly, there is no track of the cavern and any of its treasures. But you might come back in the future to confirm this. For now, however, the last part of your quest still needs to be done. Which would require you to return safely to the village to tell them of your brave victory.<br><hr>As you are traveling home, you again can't shake the feeling that you have forgotten something, but can't lay your finger on it. A few hours later, you arrive at your destination and you can see people waving and cheering at the edge of the mostly rebuilt town, together with the king and queen. The sudden realization that you were supposed to rescue the princess strikes you and for a moment you don't know what to do.<br><hr>You then bow to your king and queen and start making up a brave story that would explain how the princess could somehow not be saved, but you managed to come back. You stress again that you did all you could, but people only nod and tell you that they understand. Saying that it would have taken a real hero to bring back the princess.<br><br><hr>THE END",
             "requirement": "",
-            "options": [{
-                "0": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "1": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }],
-                "2": [{
-                    "text": "",
-                    "item": "",
-                    "skip": ""
-                }]
-            }]
+            "options": [
+                {
+                    "0": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "1": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ],
+                    "2": [
+                        {
+                            "text": "",
+                            "item": "",
+                            "skip": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

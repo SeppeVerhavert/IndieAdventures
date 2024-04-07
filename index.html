@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Meta Tags -->
-    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Indie Adventures - Adventure text game of the brave Sir Indie</title>
-    <meta name="description" content="Adventure text choice game of the brave Sir Indie developed for mobile.">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <head>
+        <!-- Meta Tags -->
+        <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Indie Adventures - Adventure text game of the brave Sir Indie</title>
+        <meta name="description" content="Adventure text choice game of the brave Sir Indie developed for mobile.">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
 
-<body>
-    <div class="app">
-        <div class="menu-container">
-            <div class="golden-menu">
-                <div class="white-border">
-                    <div class="heart-container">
-                        <img class="heart full" src="https://i.imgur.com/IKJQYAv.png">
-                        <img class="shield full" src="https://i.imgur.com/pvRiO8X.png">
+    <body>
+        <div class="app">
+            <div class="menu-container">
+                <div class="golden-menu">
+                    <div class="white-border">
+                        <div class="heart-container">
+                            <img class="heart full" src="assets\img\fullheart.png">
+                            <img class="shield full" src="assets\img\fullshield.png">
+                        </div>
+                        <p>SIR INDIE</p>
                     </div>
-                    <p>SIR INDIE</p>
+                    <div onclick=openMenu()>
+                        <img id="hamburger-icon" src="assets\img\menuicon.png">
+                    </div>
                 </div>
-                <div onclick=openMenu()>
-                    <img id="hamburger-icon" src="https://i.imgur.com/zdB5Ha7.png">
-                </div>
-            </div>
-
-        </div>
-        <div class="menu hidden">
-            <button type="button" class="btn header speed" onclick=changeSpeed()>TEXTSPEED: NORMAL</button>
-        </div>
-        <div class="img-container">
-            <img id="img" src="https://i.imgur.com/spfC3a8.png">
-        </div>
-        <div class="text-container">
-            <div class="textfield">
-                <p id="story-text"></p>
 
             </div>
-        </div>
-        <div class="button-container">
-            <div id="choices-container">
-                <p class="choice" onclick=render(0)></p>
-                <p class="choice" onclick=render(1)></p>
-                <p class="choice" onclick=render(2)></p>
+            <div class="menu hidden">
+                <button type="button" class="btn header speed" onclick=changeSpeed()>TEXTSPEED: NORMAL</button>
             </div>
-            <button id="start" onclick=render()>START</button>
-            <button id="end" class="hidden" onclick=restart()>RESTART</button>
-        </div>
-        <script src="assets/javascript/script.js"></script>
-</body>
+            <div class="img-container">
+                <img id="img" src="assets\img\slide0.png">
+            </div>
+            <div class="text-container">
+                <div class="textfield">
+                    <p id="story-text"></p>
+
+                </div>
+            </div>
+            <div class="button-container">
+                <div id="choices-container">
+                    <p class="choice" onclick=render(0)></p>
+                    <p class="choice" onclick=render(1)></p>
+                    <p class="choice" onclick=render(2)></p>
+                </div>
+                <button id="start" onclick=render()>START</button>
+                <button id="end" class="hidden" onclick=restart()>RESTART</button>
+            </div>
+            <script src="assets/javascript/script.js"></script>
+    </body>
 
 </html>

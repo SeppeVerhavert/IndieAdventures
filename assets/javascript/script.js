@@ -56,7 +56,7 @@ function typeWriter(sentence) {
         speedBtn.disabled = true;
         screenText.classList.add('typing');
         var index = 0,
-            timer = setInterval(function() {
+            timer = setInterval(function () {
                 var char = sentence.charAt(index);
                 if (char === '<') {
                     index = sentence.indexOf('>', index);
@@ -76,16 +76,16 @@ function typeWriter(sentence) {
 
 function showOptions() {
     if (page === 0) {
-        fadein = setTimeout(function() {
+        fadein = setTimeout(function () {
             startBtn.classList.remove('hidden')
         }, 500);
-        setTimeout(function() { checkOptions() }, 500);
+        setTimeout(function () { checkOptions() }, 500);
     } else if (dead === true) {
-        fadein = setTimeout(function() {
+        fadein = setTimeout(function () {
             endBtn.classList.remove('hidden')
         }, 500);
     } else {
-        setTimeout(function() { checkOptions() }, 500);
+        setTimeout(function () { checkOptions() }, 500);
     }
 }
 
@@ -122,10 +122,10 @@ function checkhealth() {
 function takedamage() {
     if (shieldIcon.classList.contains('full')) {
         shieldIcon.classList.remove('full');
-        shieldIcon.src = 'https://i.imgur.com/svr1KjP.png';
+        shieldIcon.src = 'assets\img\emptyshield.png';
     } else if (healthIcon.classList.contains('full')) {
         healthIcon.classList.remove('full');
-        healthIcon.src = 'https://i.imgur.com/ilUAnwO.png';
+        healthIcon.src = 'assets\img\emptyheart.png';
         gameOver();
     }
 }
