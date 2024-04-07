@@ -122,10 +122,10 @@ function checkhealth() {
 function takedamage() {
     if (shieldIcon.classList.contains('full')) {
         shieldIcon.classList.remove('full');
-        shieldIcon.src = 'assets\img\emptyshield.png';
+        shieldIcon.src = 'assets\\img\\emptyshield.png';
     } else if (healthIcon.classList.contains('full')) {
         healthIcon.classList.remove('full');
-        healthIcon.src = 'assets\img\emptyheart.png';
+        healthIcon.src = 'assets\\img\\emptyheart.png';
         gameOver();
     }
 }
