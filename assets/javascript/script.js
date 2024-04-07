@@ -13,7 +13,7 @@ var healthIcon = document.getElementsByClassName('heart')[0];
 var menu = document.getElementsByClassName('menu')[0];
 var inventory = new Array();
 var speed = 25;
-var page = -1;
+var page = 24;
 var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
@@ -108,10 +108,10 @@ function checkOptions() {
 
 function checkhealth() {
     if (data.pages[page].requirement === "fullhealth") {
-        if (shieldIcon.classList.contains('full')) {
+        if (!shieldIcon.classList.contains('full')) {
             page++;
+            takedamage();
         }
-        takedamage();
     } else if (data.pages[page].requirement !== "") {
         if (!inventory.includes(data.pages[page].requirement)) {
             page++
