@@ -4,6 +4,7 @@ var img = document.getElementById('img');
 var startBtn = document.getElementById('start');
 var endBtn = document.getElementById('end');
 var choicesContainer = document.getElementById('choices-container');
+var titleText = document.getElementById('title-text');
 var screenText = document.getElementById('story-text');
 var choices = document.getElementsByClassName('choice');
 var speedBtn = document.getElementsByClassName('speed')[0];
@@ -39,6 +40,7 @@ async function render(choice) {
     }
     page++;
     checkhealth();
+    titleText.classList.add('hidden');
     startBtn.classList.add('hidden');
     choicesContainer.classList.add('hidden');
     img.src = data.pages[page].image;
@@ -78,6 +80,7 @@ function showOptions() {
     if (page === 0) {
         fadein = setTimeout(function () {
             startBtn.classList.remove('hidden')
+            titleText.classList.remove('hidden');
         }, 500);
         setTimeout(function () { checkOptions() }, 500);
     } else if (dead === true) {

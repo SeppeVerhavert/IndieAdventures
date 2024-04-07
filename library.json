@@ -1,7 +1,7 @@
 {
     "pages": [
         {
-            "image": "assets\\img\\slide0.png",
+            "image": "assets\\img\\slide0.jpg",
             "text": "This is the very first of many adventures of the brave Sir Indie.<br><hr>During this adventure, you decide how you want to approach the problems you face. Choose carefully and get the perfect score.",
             "requirement": "",
             "options": [
@@ -752,7 +752,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "As the dragon rears up again to its full size, it lets out another earthshattering roar. More of the ceiling starts to come down and you can see one of the pillars fall down. A cloud of hot dust then rushes through the cave and blinded by rage, dust and the falling rubble the red titan then starts clawing at everything.<br><hr>You then notice that all the remaining cylinders are shaking and one by one they start collapsing. A white cloud of dust falls over the cavern and you hear the cries of the dragon coming from its midst. Suddenly, you see a door that you have not noticed before at the back of the cave. However, this room is about to collapse so you must be quick. Do you risk it?",
+            "text": "As the dragon rears up again to its full size, it lets out another earth-shattering roar. More of the ceiling starts to come down and you can see one of the pillars fall down. A cloud of hot dust then rushes through the cave and blinded by rage, dust and the falling rubble the red titan then starts clawing at everything.<br><hr>You then notice that all the remaining cylinders are shaking and one by one they start collapsing. A white cloud of dust falls over the cavern and you hear the cries of the dragon coming from its midst. Suddenly, you see a door that you have not noticed before at the back of the cave. However, this room is about to collapse so you must be quick. Do you risk it?",
             "requirement": "",
             "options": [
                 {
@@ -782,7 +782,7 @@
         },
         {
             "image": "https://i.imgur.com/FVxPOSG.png",
-            "text": "Hoping for treasure or even a different way out you rush towards the door, but this one is shut tight. Rocks the size of your head are falling down from the ceiling and one hits the side of your head. The room darkens for a second, but you manage to shrug it off. <br><hr>You ram your shoulder against the wooden door and the dry wood breaks under your might. In front of you stands a figure chained to the wall. You recognize her as the princess! Obviously, you remembered to save the princess, brave knights always remember to save the princess, and that's why you are here.<br><hr>However, the cavern seems to be collapsing rapidly now as you manage to set the princess free. You hear the noise of loudly bursting stone and for the second time today, everything goes dark.",
+            "text": "Hoping for treasure or even a different way out you rush towards the door, but this one is shut tight. Rocks the size of your head are falling down from the ceiling and one hits the side of your head. The room darkens for a second, but you manage to shrug it off.<br><hr>You ram your shoulder against the wooden door and the dry wood breaks under your might. In front of you stands a figure chained to the wall. You recognize her as the princess! Obviously, you remembered to save the princess, brave knights always remember to save the princess, and that's why you are here.<br><hr>However, the cavern seems to be collapsing rapidly now as you manage to set the princess free. You hear the noise of loudly bursting stone and for the second time today, everything goes dark.",
             "requirement": "fullhealth",
             "options": [
                 {
