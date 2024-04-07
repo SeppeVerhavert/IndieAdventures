@@ -13,7 +13,7 @@ var healthIcon = document.getElementsByClassName('heart')[0];
 var menu = document.getElementsByClassName('menu')[0];
 var inventory = new Array();
 var speed = 25;
-var page = 24;
+var page = -1;
 var dead = false;
 
 //  ------------------  JSON FETCH  ------------------  //
@@ -81,7 +81,7 @@ function showOptions() {
         fadein = setTimeout(function () {
             startBtn.classList.remove('hidden')
             titleText.classList.remove('hidden');
-        }, 500);
+        }, 50);
         setTimeout(function () { checkOptions() }, 500);
     } else if (dead === true) {
         fadein = setTimeout(function () {
